@@ -1,0 +1,31 @@
+[  1%] Built target generate-cpp
+Consolidate compiler generated dependencies of target OpenXLSX
+Consolidate compiler generated dependencies of target nlopt
+[ 19%] Built target OpenXLSX
+[ 50%] Built target nlopt
+Consolidate compiler generated dependencies of target Demo6
+Consolidate compiler generated dependencies of target Demo3
+Consolidate compiler generated dependencies of target Demo5
+Consolidate compiler generated dependencies of target Demo7
+Consolidate compiler generated dependencies of target Demo1
+Consolidate compiler generated dependencies of target Demo4
+Consolidate compiler generated dependencies of target Demo2
+Consolidate compiler generated dependencies of target Demo9
+Consolidate compiler generated dependencies of target Demo8
+Consolidate compiler generated dependencies of target Demo10
+[ 51%] Built target Demo3
+[ 53%] Built target Demo5
+[ 54%] Built target Demo6
+[ 55%] Built target Demo4
+[ 58%] Built target Demo1
+[ 58%] Built target Demo7
+[ 59%] Built target Demo2
+[ 60%] Built target Demo8
+[ 61%] Built target Demo9
+[ 62%] Built target Demo10
+Consolidate compiler generated dependencies of target mainTWSMakeContract
+[ 64%] Building CXX object CMakeFiles/mainTWSMakeContract.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/UDF/config/source/ConfigParams.cpp.o
+[ 64%] Building CXX object CMakeFiles/mainTWSMakeContract.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/UDF/config/source/ConfigTWS.cpp.o
+[ 64%] Building CXX object CMakeFiles/mainTWSMakeContract.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/UDF/config/source/ConfigModel.cpp.o
+[ 64%] Linking CXX executable mainTWSMakeContract
+[100%] Built target mainTWSMakeContract

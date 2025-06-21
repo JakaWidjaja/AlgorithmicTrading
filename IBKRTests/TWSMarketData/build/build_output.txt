@@ -1,0 +1,164 @@
+[  2%] Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.o
+[  2%] Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.o
+[  2%] Generating nlopt.hpp
+[  3%] Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.o
+[  4%] Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.o
+[  3%] Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.o
+[  4%] Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.o
+[  4%] Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.o
+[  4%] Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.o
+[  5%] Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDrawing.cpp.o
+[  6%] Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.o
+[  7%] Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLComments.cpp.o
+[  8%] Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.o
+[  8%] Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLMergeCells.cpp.o
+[  8%] Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.o
+[  9%] Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.o
+[  9%] Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.o
+[ 10%] Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.o
+[ 13%] Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.o
+[ 11%] Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.o
+[ 10%] Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.o
+[ 14%] Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLStyles.cpp.o
+[ 15%] Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLTables.cpp.o
+[ 15%] Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.o
+[ 15%] Built target generate-cpp
+[ 16%] Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.o
+[ 17%] Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlParser.cpp.o
+[ 17%] Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.o
+[ 17%] Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.o
+[ 17%] Building C object external/nlopt/CMakeFiles/nlopt.dir/src/algs/direct/DIRect.c.o
+[ 18%] Building C object external/nlopt/CMakeFiles/nlopt.dir/src/algs/direct/direct_wrap.c.o
+[ 19%] Building C object external/nlopt/CMakeFiles/nlopt.dir/src/algs/direct/DIRserial.c.o
+[ 19%] Building C object external/nlopt/CMakeFiles/nlopt.dir/src/algs/direct/DIRsubrout.c.o
+[ 20%] Building C object external/nlopt/CMakeFiles/nlopt.dir/src/algs/cdirect/cdirect.c.o
+[ 21%] Building C object external/nlopt/CMakeFiles/nlopt.dir/src/algs/cdirect/hybrid.c.o
+[ 22%] Building C object external/nlopt/CMakeFiles/nlopt.dir/src/algs/crs/crs.c.o
+[ 22%] Building C object external/nlopt/CMakeFiles/nlopt.dir/src/algs/praxis/praxis.c.o
+[ 22%] Building C object external/nlopt/CMakeFiles/nlopt.dir/src/algs/mlsl/mlsl.c.o
+[ 23%] Building C object external/nlopt/CMakeFiles/nlopt.dir/src/algs/mma/mma.c.o
+[ 25%] Building C object external/nlopt/CMakeFiles/nlopt.dir/src/algs/mma/ccsa_quadratic.c.o
+[ 25%] Building C object external/nlopt/CMakeFiles/nlopt.dir/src/algs/neldermead/nldrmd.c.o
+[ 25%] Building C object external/nlopt/CMakeFiles/nlopt.dir/src/algs/cobyla/cobyla.c.o
+[ 26%] Building C object external/nlopt/CMakeFiles/nlopt.dir/src/algs/bobyqa/bobyqa.c.o
+[ 27%] Building C object external/nlopt/CMakeFiles/nlopt.dir/src/algs/neldermead/sbplx.c.o
+[ 28%] Building C object external/nlopt/CMakeFiles/nlopt.dir/src/algs/auglag/auglag.c.o
+[ 26%] Building C object external/nlopt/CMakeFiles/nlopt.dir/src/algs/newuoa/newuoa.c.o
+[ 29%] Building C object external/nlopt/CMakeFiles/nlopt.dir/src/algs/isres/isres.c.o
+[ 30%] Building C object external/nlopt/CMakeFiles/nlopt.dir/src/api/optimize.c.o
+[ 30%] Building C object external/nlopt/CMakeFiles/nlopt.dir/src/algs/slsqp/slsqp.c.o
+[ 31%] Building C object external/nlopt/CMakeFiles/nlopt.dir/src/algs/esch/esch.c.o
+[ 31%] Building C object external/nlopt/CMakeFiles/nlopt.dir/src/api/options.c.o
+[ 31%] Building C object external/nlopt/CMakeFiles/nlopt.dir/src/api/deprecated.c.o
+[ 32%] Building C object external/nlopt/CMakeFiles/nlopt.dir/src/api/f77api.c.o
+[ 33%] Building C object external/nlopt/CMakeFiles/nlopt.dir/src/api/general.c.o
+[ 34%] Building C object external/nlopt/CMakeFiles/nlopt.dir/src/util/mt19937ar.c.o
+[ 34%] Building C object external/nlopt/CMakeFiles/nlopt.dir/src/util/sobolseq.c.o
+[ 35%] Building C object external/nlopt/CMakeFiles/nlopt.dir/src/util/timer.c.o
+[ 35%] Building C object external/nlopt/CMakeFiles/nlopt.dir/src/util/redblack.c.o
+[ 36%] Building C object external/nlopt/CMakeFiles/nlopt.dir/src/util/stop.c.o
+[ 38%] Building C object external/nlopt/CMakeFiles/nlopt.dir/src/util/qsort_r.c.o
+[ 39%] Building C object external/nlopt/CMakeFiles/nlopt.dir/src/algs/luksan/plip.c.o
+[ 39%] Building C object external/nlopt/CMakeFiles/nlopt.dir/src/algs/luksan/pnet.c.o
+[ 40%] Building C object external/nlopt/CMakeFiles/nlopt.dir/src/algs/luksan/plis.c.o
+[ 40%] Building C object external/nlopt/CMakeFiles/nlopt.dir/src/algs/luksan/pssubs.c.o
+[ 40%] Building CXX object external/nlopt/CMakeFiles/nlopt.dir/src/algs/stogo/local.cc.o
+[ 39%] Building C object external/nlopt/CMakeFiles/nlopt.dir/src/util/rescale.c.o
+[ 41%] Building C object external/nlopt/CMakeFiles/nlopt.dir/src/algs/luksan/mssubs.c.o
+[ 42%] Building CXX object external/nlopt/CMakeFiles/nlopt.dir/src/algs/stogo/stogo.cc.o
+[ 41%] Building CXX object external/nlopt/CMakeFiles/nlopt.dir/src/algs/stogo/tools.cc.o
+[ 43%] Building CXX object external/nlopt/CMakeFiles/nlopt.dir/src/algs/stogo/linalg.cc.o
+[ 44%] Building CXX object external/nlopt/CMakeFiles/nlopt.dir/src/algs/ags/evolvent.cc.o
+[ 45%] Building CXX object external/nlopt/CMakeFiles/nlopt.dir/src/algs/stogo/global.cc.o
+[ 46%] Building CXX object external/nlopt/CMakeFiles/nlopt.dir/src/algs/ags/local_optimizer.cc.o
+[ 47%] Building CXX object external/nlopt/CMakeFiles/nlopt.dir/src/algs/ags/ags.cc.o
+[ 46%] Building CXX object external/nlopt/CMakeFiles/nlopt.dir/src/algs/ags/solver.cc.o
+[ 48%] Linking CXX shared library libnlopt.so
+[ 50%] Built target nlopt
+[ 51%] Linking CXX static library ../../../output/libOpenXLSX.a
+[ 51%] Built target OpenXLSX
+[ 52%] Building CXX object external/OpenXLSX/Examples/CMakeFiles/Demo4.dir/Demo4.cpp.o
+[ 53%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBClient/source/HistoricalData.cpp.o
+[ 53%] Building CXX object external/OpenXLSX/Examples/CMakeFiles/Demo5.dir/Demo5.cpp.o
+[ 54%] Building CXX object CMakeFiles/mainTWSMarketData.dir/mainTWSMarketData.cpp.o
+[ 54%] Building CXX object external/OpenXLSX/Examples/CMakeFiles/Demo1.dir/Demo1.cpp.o
+[ 54%] Building CXX object external/OpenXLSX/Examples/CMakeFiles/Demo10.dir/Demo10.cpp.o
+[ 54%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBClient/source/IBClient.cpp.o
+[ 55%] Building CXX object external/OpenXLSX/Examples/CMakeFiles/Demo3.dir/Demo3.cpp.o
+[ 56%] Building CXX object external/OpenXLSX/Examples/CMakeFiles/Demo2.dir/Demo2.cpp.o
+[ 57%] Building CXX object external/OpenXLSX/Examples/CMakeFiles/Demo7.dir/Demo7.cpp.o
+[ 57%] Building CXX object external/OpenXLSX/Examples/CMakeFiles/Demo6.dir/Demo6.cpp.o
+[ 58%] Building CXX object external/OpenXLSX/Examples/CMakeFiles/Demo9.dir/Demo9.cpp.o
+[ 59%] Building CXX object external/OpenXLSX/Examples/CMakeFiles/Demo8.dir/Demo8.cpp.o
+[ 60%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBClient/source/IBClientCore.cpp.o
+[ 60%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBClient/source/MarketData.cpp.o
+[ 60%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/ContractCondition.cpp.o
+[ 60%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/EClientUtils.cpp.o
+[ 61%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBClient/source/MarketDataStore.cpp.o
+[ 63%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/EClientSocket.cpp.o
+[ 64%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBClient/source/OrderManager.cpp.o
+[ 65%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/EClient.cpp.o
+[ 65%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/DefaultEWrapper.cpp.o
+[ 66%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/Decimal.cpp.o
+[ 66%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/EDecoderUtils.cpp.o
+[ 67%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/EDecoder.cpp.o
+[ 68%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/EReader.cpp.o
+[ 70%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/EReaderOSSignal.cpp.o
+[ 71%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/EMessage.cpp.o
+[ 71%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/EOrderDecoder.cpp.o
+[ 69%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/EMutex.cpp.o
+[ 72%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/ExecutionCondition.cpp.o
+[ 72%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/ESocket.cpp.o
+[ 72%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/MarginCondition.cpp.o
+[ 73%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/OperatorCondition.cpp.o
+[ 75%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/PercentChangeCondition.cpp.o
+[ 75%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/OrderCondition.cpp.o
+[ 75%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/SoftDollarTier.cpp.o
+[ 76%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/StdAfx.cpp.o
+[ 77%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/PriceCondition.cpp.o
+[ 78%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/TimeCondition.cpp.o
+[ 78%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/Utils.cpp.o
+[ 79%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/VolumeCondition.cpp.o
+[ 79%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/protobufUnix/SoftDollarTier.pb.cc.o
+[ 79%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/protobufUnix/OrderState.pb.cc.o
+[ 79%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/protobufUnix/OrderCancel.pb.cc.o
+[ 80%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/protobufUnix/OrderStatus.pb.cc.o
+[ 81%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/protobufUnix/PlaceOrderRequest.pb.cc.o
+[ 82%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/protobufUnix/OrderCondition.pb.cc.o
+[ 83%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/protobufUnix/OrderAllocation.pb.cc.o
+[ 83%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/protobufUnix/ExecutionRequest.pb.cc.o
+[ 84%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/protobufUnix/Order.pb.cc.o
+[ 85%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/protobufUnix/ExecutionFilter.pb.cc.o
+[ 85%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/protobufUnix/OpenOrdersEnd.pb.cc.o
+[ 86%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/protobufUnix/OpenOrder.pb.cc.o
+[ 88%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/protobufUnix/GlobalCancelRequest.pb.cc.o
+[ 88%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/protobufUnix/ExecutionDetailsEnd.pb.cc.o
+[ 89%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/protobufUnix/ExecutionDetails.pb.cc.o
+[ 90%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/protobufUnix/CancelOrderRequest.pb.cc.o
+[ 91%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/protobufUnix/Execution.pb.cc.o
+[ 92%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/protobufUnix/DeltaNeutralContract.pb.cc.o
+[ 92%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/protobufUnix/Contract.pb.cc.o
+[ 92%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/protobufUnix/ErrorMessage.pb.cc.o
+[ 93%] Building CXX object CMakeFiles/mainTWSMarketData.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/IBJts/source/cppclient/client/protobufUnix/ComboLeg.pb.cc.o
+[ 94%] Linking CXX executable ../../../output/Demo10
+[ 94%] Built target Demo10
+[ 95%] Linking CXX executable ../../../output/Demo4
+[ 95%] Linking CXX executable ../../../output/Demo2
+[ 95%] Linking CXX executable ../../../output/Demo7
+[ 95%] Built target Demo4
+[ 96%] Linking CXX executable ../../../output/Demo6
+[ 96%] Built target Demo2
+[ 97%] Linking CXX executable ../../../output/Demo5
+[ 97%] Built target Demo7
+[ 98%] Linking CXX executable ../../../output/Demo1
+[ 98%] Built target Demo6
+[ 98%] Linking CXX executable ../../../output/Demo3
+[100%] Linking CXX executable ../../../output/Demo9
+[100%] Built target Demo1
+[100%] Built target Demo5
+[100%] Built target Demo3
+[100%] Built target Demo9
+[100%] Linking CXX executable ../../../output/Demo8
+[100%] Built target Demo8
+[100%] Linking CXX executable mainTWSMarketData
+[100%] Built target mainTWSMarketData

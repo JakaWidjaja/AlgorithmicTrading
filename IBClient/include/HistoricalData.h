@@ -16,16 +16,14 @@ public:
 	HistoricalData() = default;
 	void setClient(EClientSocket* client);
 
-	void requestHistoricalData(int reqId, 
-							   const std::string& symbol,
-							   const std::string& secType, 
-							   const std::string& exchange, 
-							   const std::string& currency, 
-							   const std::string& endDateTime, 
-							   const std::string& durationStr, 
-							   const std::string& barSizeSetting, 
-							   const std::string& whatToShow, 
-							   int useRTH, int formatDate);
+	void requestHistoricalData(int reqId,
+                           const Contract& contract,
+                           const std::string& endDateTime,
+                           const std::string& durationStr,
+                           const std::string& barSizeSetting,
+                           const std::string& whatToShow,
+                           int useRTH,
+                           int formatDate = 1);
 
 	void historicalData(int reqId, const Bar& bar);
 	const std::vector<Bar>& getHistoricalData(int reqId) const;

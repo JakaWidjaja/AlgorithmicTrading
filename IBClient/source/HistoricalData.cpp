@@ -1,4 +1,5 @@
 #include "HistoricalData.h"
+#include "Contract.h"
 #include <iostream>
 #include <vector>
 #include <string>
@@ -20,30 +21,29 @@ void HistoricalData::setClient(EClientSocket* client)
 }
 
 void HistoricalData::requestHistoricalData(int reqId,
-                                           const string& symbol, 
-                                           const string& secType,
-                                           const string& exchange, 
-                                           const string& currency,
-                                           const string& endDateTime, 
+                                           const Contract& contract,
+                                           const string& endDateTime,
                                            const string& durationStr,
-                                           const string& barSizeSetting, 
+                                           const string& barSizeSetting,
                                            const string& whatToShow,
-                                           int useRTH, int formatDate)
+                                           int useRTH,
+                                           int formatDate)
 {
-	if (!clientSocket) {
+    if (!clientSocket) 
+    {
         throw std::runtime_error("Client socket not set.");
     }
 
-	Contract contract;
-	contract.symbol   = symbol;
-	contract.secType  = secType;
-	contract.exchange = exchange;
-	contract.currency = currency;
+    historicalDataMap[reqId].clear();
 
-	historicalDataMap[reqId].clear();
-	clientSocket -> reqHistoricalData(reqId, contract, endDateTime, 
-								durationStr, barSizeSetting, whatToShow, 
-								useRTH, formatDate, false, TagValueListSPtr());
+    clientSocket->reqHistoricalData(reqId, contract,
+                                    endDateTime,
+                                    durationStr,
+                                    barSizeSetting,
+                                    whatToShow,
+                                    useRTH,
+                                    formatDate,
+                                    false, TagValueListSPtr());
 }
 
 void HistoricalData::historicalData(int reqId, const Bar& bar)

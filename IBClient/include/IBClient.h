@@ -32,10 +32,7 @@ public:
 	double getMarketValue(int tickerId, TickType field) const;
 
 	// Historical data
-	void requestHistoricalData(int reqId, const std::string& symbol, 
-										  const std::string& secType, 
-										  const std::string& exchange, 
-										  const std::string& currency, 
+	void requestHistoricalData(int reqId, const Contract& contract,
 										  const std::string& endDateTime, 
 										  const std::string& durationStr, 
 										  const std::string& barSizeSetting, 

@@ -29,15 +29,13 @@ void IBClient::historicalData(TickerId reqId, const Bar& bar)
 	histData.historicalData(reqId, bar);
 }
 
-void IBClient::requestHistoricalData(int reqId, const string& symbol, const string& secType,
-                                     const string& exchange, const string& currency,
+void IBClient::requestHistoricalData(int reqId, const Contract& contract,
                                      const string& endDateTime, const string& durationStr,
                                      const string& barSizeSetting, const string& whatToShow,
                                      int useRTH, int formatDate)
 {
-	histData.requestHistoricalData(reqId, symbol, secType, exchange, currency,
-                                            endDateTime, durationStr, barSizeSetting, whatToShow,
-                                            useRTH, formatDate);
+	histData.requestHistoricalData(reqId, contract, endDateTime, durationStr, barSizeSetting, whatToShow,
+                                    useRTH, formatDate);
 }
 
 const vector<Bar>& IBClient::getHistoricalData(int reqId) const
