@@ -1,4 +1,5 @@
 #include "Permutations.h"
+#include "Combinations.h"
 
 #include <vector>
 #include <string>
@@ -13,6 +14,11 @@ vector<vector<string>> Permutations::generate(const vector<string>& items, int n
 {
 	Combinations comb;
 	auto combs = comb.generate(items, num);
+
+	if (num == 0) 
+	{
+    return {{}};  // One empty permutation
+	}
 
 	vector<vector<string>> results;
 

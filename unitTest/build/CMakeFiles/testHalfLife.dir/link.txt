@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/testHalfLife.dir/testHalfLife.cpp.o CMakeFiles/testHalfLife.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/UDF/models/TechnicalIndicator/source/HalfLife.cpp.o -o testHalfLife  lib/libgtest.a lib/libgtest_main.a -lpthread lib/libgtest.a 

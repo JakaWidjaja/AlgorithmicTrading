@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/testDoubleSMA.dir/testDoubleSMA.cpp.o CMakeFiles/testDoubleSMA.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/UDF/models/TechnicalIndicator/source/DoubleSMA.cpp.o -o testDoubleSMA  lib/libgtest.a lib/libgtest_main.a -lpthread lib/libgtest.a 

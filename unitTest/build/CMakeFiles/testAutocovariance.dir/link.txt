@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/testAutocovariance.dir/testAutocovariance.cpp.o CMakeFiles/testAutocovariance.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/UDF/models/TechnicalIndicator/source/Autocovariance.cpp.o -o testAutocovariance  lib/libgtest.a lib/libgtest_main.a -lpthread lib/libgtest.a 

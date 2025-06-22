@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/testVarianceRatio.dir/testVarianceRatio.cpp.o CMakeFiles/testVarianceRatio.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/UDF/models/TechnicalIndicator/source/VarianceRatio.cpp.o -o testVarianceRatio  lib/libgtest.a lib/libgtest_main.a -lpthread lib/libgtest.a 

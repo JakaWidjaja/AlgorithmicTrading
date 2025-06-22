@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/testCombinations.dir/testCombinations.cpp.o CMakeFiles/testCombinations.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/UDF/models/Combinatorics/source/Combinations.cpp.o -o testCombinations  lib/libgtest.a lib/libgtest_main.a -lpthread lib/libgtest.a 

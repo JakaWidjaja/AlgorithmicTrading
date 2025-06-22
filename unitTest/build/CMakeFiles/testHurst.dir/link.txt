@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/testHurst.dir/testHurstExponent.cpp.o CMakeFiles/testHurst.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/UDF/models/TechnicalIndicator/source/HurstExponent.cpp.o -o testHurst  lib/libgtest.a lib/libgtest_main.a -lpthread lib/libgtest.a 

@@ -8,6 +8,7 @@
 class Combinations : public Combinatorics
 {
 public:
+	~Combinations() override;
 	std::vector<std::vector<std::string>> generate(const std::vector<std::string>& items, int num) const override;
 
 };

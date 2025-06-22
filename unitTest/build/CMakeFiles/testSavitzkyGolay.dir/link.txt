@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/testSavitzkyGolay.dir/testSavitzkyGolay.cpp.o CMakeFiles/testSavitzkyGolay.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/UDF/models/Smoothing/source/SavitzkyGolay.cpp.o -o testSavitzkyGolay  lib/libgtest.a lib/libgtest_main.a -lpthread lib/libgtest.a 

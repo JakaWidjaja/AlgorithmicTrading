@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/testSingleSMA.dir/testSingleSMA.cpp.o CMakeFiles/testSingleSMA.dir/home/lun/Desktop/Folder_2/AlgoTradingC++/UDF/models/TechnicalIndicator/source/SingleSMA.cpp.o -o testSingleSMA  lib/libgtest.a lib/libgtest_main.a -lpthread lib/libgtest.a 
