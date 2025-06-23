@@ -15,6 +15,7 @@
 #include <string>
 #include <vector>
 #include <tuple>
+#include <set>
 
 class IBClient : public IBClientCore
 {
@@ -37,8 +38,21 @@ public:
 										  const std::string& durationStr, 
 										  const std::string& barSizeSetting, 
 										  const std::string& whatToShow, int useRTH, int formatDate);
+	void requestHistoricalData(int sleepTime,
+							   const std::vector<Contract>& contracts, 
+							   const std::string& endDatetime, 
+							   const std::string& durationStr,
+							   const std::string& barSizeSetting, 
+							   const std::string& whatToShow, 
+							   int useRTH = 1,
+							   int formatDate = 1, 
+							   int startingReqId = 1000);
 	const std::vector<Bar>& getHistoricalData(int reqId) const;
 	void exportHistoricalDataToCSV(int reqId, const std::string& filename) const;
+	void exportHistoricalDataToCSV(const std::string& filename) const;
+	void exportHistoricalDataToCSV(const std::string& filename, const std::set<std::string>& columnNames) const;
+	const HistoricalData& getHistoricalDataHandler() const {return histData;}
+	std::vector<std::tuple<std::string, std::string, double>> flattenedClosePrice() const;
 
 	// Order manager
 	void placeMarketOrder(const Contract& contract, double quantity, const std::string& direction);

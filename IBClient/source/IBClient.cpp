@@ -6,11 +6,13 @@
 #include <vector>
 #include <memory>
 #include <tuple>
+#include <set>
 
 using std::string;
 using std::vector;
 using std::shared_ptr;
 using std::tuple;
+using std::set;
 
 IBClient::IBClient() :IBClientCore()
 {
@@ -38,15 +40,44 @@ void IBClient::requestHistoricalData(int reqId, const Contract& contract,
                                     useRTH, formatDate);
 }
 
+void IBClient::requestHistoricalData(int sleepTime,
+                               const std::vector<Contract>& contracts, 
+                               const std::string& endDatetime, 
+                               const std::string& durationStr,
+                               const std::string& barSizeSetting, 
+                               const std::string& whatToShow, 
+                               int useRTH,
+                               int formatDate, 
+                               int startingReqId)
+{
+    histData.requestHistoricalData(sleepTime, contracts, endDatetime, durationStr, barSizeSetting, 
+                                   whatToShow, useRTH, formatDate, startingReqId);
+}
+
 const vector<Bar>& IBClient::getHistoricalData(int reqId) const
 {
 	return histData.getHistoricalData(reqId);
 }
 
-void IBClient::exportHistoricalDataToCSV(int reqId, const std::string& filename) const {
+void IBClient::exportHistoricalDataToCSV(int reqId, const string& filename) const 
+{
     histData.exportToCSV(reqId, filename);
 }
 
+void IBClient::exportHistoricalDataToCSV(const string& filename) const 
+{
+    histData.exportToCSV(filename);
+}
+
+void IBClient::exportHistoricalDataToCSV(const string& filename, const set<string>& columnNames) const 
+{
+    histData.exportToCSV(filename, columnNames);
+}
+
+vector<tuple<string, string, double>> IBClient::flattenedClosePrice() const
+{
+    histData.flattenedClosePrice();
+}
 
 // Market data
 void IBClient::requestMarketDataType(int type) 

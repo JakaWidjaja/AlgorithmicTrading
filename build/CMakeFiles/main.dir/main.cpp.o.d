@@ -496,23 +496,10 @@ CMakeFiles/main.dir/main.cpp.o: \
  /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/config/include/ConfigParams.h \
  /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/config/include/ConfigContract.h \
  /usr/include/c++/11/optional \
- /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/models/OrnsteinUhlenbeck/include/MethodOfMoment.h \
- /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/models/OrnsteinUhlenbeck/include/OrnsteinUhlenbeck.h \
- /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/models/OrnsteinUhlenbeck/include/MaxLikelihood.h \
+ /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/MakeContract/include/MakeContract.h \
  /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/models/Combinatorics/include/Combinations.h \
  /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/models/Combinatorics/include/Combinatorics.h \
- /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/models/Combinatorics/include/Permutations.h \
- /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/models/Combinatorics/include/Combinations.h \
- /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/models/Combinatorics/include/CombinatoricsGenerator.h \
- /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/models/TechnicalIndicator/include/Autocovariance.h \
- /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/models/TechnicalIndicator/include/TechnicalIndicators.h \
- /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/models/TechnicalIndicator/include/DoubleSMA.h \
- /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/models/TechnicalIndicator/include/SingleSMA.h \
- /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/models/TechnicalIndicator/include/HurstExponent.h \
- /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/models/TechnicalIndicator/include/VarianceRatio.h \
- /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/models/TechnicalIndicator/include/HalfLife.h \
- /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/models/Smoothing/include/SavitzkyGolay.h \
- /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/models/Smoothing/include/Smoothing.h \
+ /usr/include/c++/11/sstream /usr/include/c++/11/bits/sstream.tcc \
  /usr/include/c++/11/iomanip /usr/include/c++/11/locale \
  /usr/include/c++/11/bits/locale_facets_nonio.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
@@ -520,5 +507,4 @@ CMakeFiles/main.dir/main.cpp.o: \
  /usr/include/libintl.h /usr/include/c++/11/bits/codecvt.h \
  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
  /usr/include/c++/11/bits/locale_conv.h \
- /usr/include/c++/11/bits/quoted_string.h /usr/include/c++/11/sstream \
- /usr/include/c++/11/bits/sstream.tcc
+ /usr/include/c++/11/bits/quoted_string.h

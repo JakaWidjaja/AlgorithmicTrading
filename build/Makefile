@@ -1792,6 +1792,30 @@ IBJts/source/cppclient/client/protobufUnix/SoftDollarTier.pb.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/SoftDollarTier.pb.cc.s
 .PHONY : IBJts/source/cppclient/client/protobufUnix/SoftDollarTier.pb.cc.s
 
+UDF/MakeContract/source/MakeContract.o: UDF/MakeContract/source/MakeContract.cpp.o
+.PHONY : UDF/MakeContract/source/MakeContract.o
+
+# target to build an object file
+UDF/MakeContract/source/MakeContract.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/MakeContract/source/MakeContract.cpp.o
+.PHONY : UDF/MakeContract/source/MakeContract.cpp.o
+
+UDF/MakeContract/source/MakeContract.i: UDF/MakeContract/source/MakeContract.cpp.i
+.PHONY : UDF/MakeContract/source/MakeContract.i
+
+# target to preprocess a source file
+UDF/MakeContract/source/MakeContract.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/MakeContract/source/MakeContract.cpp.i
+.PHONY : UDF/MakeContract/source/MakeContract.cpp.i
+
+UDF/MakeContract/source/MakeContract.s: UDF/MakeContract/source/MakeContract.cpp.s
+.PHONY : UDF/MakeContract/source/MakeContract.s
+
+# target to generate assembly for a file
+UDF/MakeContract/source/MakeContract.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/MakeContract/source/MakeContract.cpp.s
+.PHONY : UDF/MakeContract/source/MakeContract.cpp.s
+
 UDF/config/source/Config.o: UDF/config/source/Config.cpp.o
 .PHONY : UDF/config/source/Config.o
 
@@ -1935,270 +1959,6 @@ UDF/models/Combinatorics/source/Combinations.s: UDF/models/Combinatorics/source/
 UDF/models/Combinatorics/source/Combinations.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/Combinatorics/source/Combinations.cpp.s
 .PHONY : UDF/models/Combinatorics/source/Combinations.cpp.s
-
-UDF/models/Combinatorics/source/CombinatoricsGenerator.o: UDF/models/Combinatorics/source/CombinatoricsGenerator.cpp.o
-.PHONY : UDF/models/Combinatorics/source/CombinatoricsGenerator.o
-
-# target to build an object file
-UDF/models/Combinatorics/source/CombinatoricsGenerator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/Combinatorics/source/CombinatoricsGenerator.cpp.o
-.PHONY : UDF/models/Combinatorics/source/CombinatoricsGenerator.cpp.o
-
-UDF/models/Combinatorics/source/CombinatoricsGenerator.i: UDF/models/Combinatorics/source/CombinatoricsGenerator.cpp.i
-.PHONY : UDF/models/Combinatorics/source/CombinatoricsGenerator.i
-
-# target to preprocess a source file
-UDF/models/Combinatorics/source/CombinatoricsGenerator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/Combinatorics/source/CombinatoricsGenerator.cpp.i
-.PHONY : UDF/models/Combinatorics/source/CombinatoricsGenerator.cpp.i
-
-UDF/models/Combinatorics/source/CombinatoricsGenerator.s: UDF/models/Combinatorics/source/CombinatoricsGenerator.cpp.s
-.PHONY : UDF/models/Combinatorics/source/CombinatoricsGenerator.s
-
-# target to generate assembly for a file
-UDF/models/Combinatorics/source/CombinatoricsGenerator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/Combinatorics/source/CombinatoricsGenerator.cpp.s
-.PHONY : UDF/models/Combinatorics/source/CombinatoricsGenerator.cpp.s
-
-UDF/models/Combinatorics/source/Permutations.o: UDF/models/Combinatorics/source/Permutations.cpp.o
-.PHONY : UDF/models/Combinatorics/source/Permutations.o
-
-# target to build an object file
-UDF/models/Combinatorics/source/Permutations.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/Combinatorics/source/Permutations.cpp.o
-.PHONY : UDF/models/Combinatorics/source/Permutations.cpp.o
-
-UDF/models/Combinatorics/source/Permutations.i: UDF/models/Combinatorics/source/Permutations.cpp.i
-.PHONY : UDF/models/Combinatorics/source/Permutations.i
-
-# target to preprocess a source file
-UDF/models/Combinatorics/source/Permutations.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/Combinatorics/source/Permutations.cpp.i
-.PHONY : UDF/models/Combinatorics/source/Permutations.cpp.i
-
-UDF/models/Combinatorics/source/Permutations.s: UDF/models/Combinatorics/source/Permutations.cpp.s
-.PHONY : UDF/models/Combinatorics/source/Permutations.s
-
-# target to generate assembly for a file
-UDF/models/Combinatorics/source/Permutations.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/Combinatorics/source/Permutations.cpp.s
-.PHONY : UDF/models/Combinatorics/source/Permutations.cpp.s
-
-UDF/models/OrnsteinUhlenbeck/source/MaxLikelihood.o: UDF/models/OrnsteinUhlenbeck/source/MaxLikelihood.cpp.o
-.PHONY : UDF/models/OrnsteinUhlenbeck/source/MaxLikelihood.o
-
-# target to build an object file
-UDF/models/OrnsteinUhlenbeck/source/MaxLikelihood.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/OrnsteinUhlenbeck/source/MaxLikelihood.cpp.o
-.PHONY : UDF/models/OrnsteinUhlenbeck/source/MaxLikelihood.cpp.o
-
-UDF/models/OrnsteinUhlenbeck/source/MaxLikelihood.i: UDF/models/OrnsteinUhlenbeck/source/MaxLikelihood.cpp.i
-.PHONY : UDF/models/OrnsteinUhlenbeck/source/MaxLikelihood.i
-
-# target to preprocess a source file
-UDF/models/OrnsteinUhlenbeck/source/MaxLikelihood.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/OrnsteinUhlenbeck/source/MaxLikelihood.cpp.i
-.PHONY : UDF/models/OrnsteinUhlenbeck/source/MaxLikelihood.cpp.i
-
-UDF/models/OrnsteinUhlenbeck/source/MaxLikelihood.s: UDF/models/OrnsteinUhlenbeck/source/MaxLikelihood.cpp.s
-.PHONY : UDF/models/OrnsteinUhlenbeck/source/MaxLikelihood.s
-
-# target to generate assembly for a file
-UDF/models/OrnsteinUhlenbeck/source/MaxLikelihood.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/OrnsteinUhlenbeck/source/MaxLikelihood.cpp.s
-.PHONY : UDF/models/OrnsteinUhlenbeck/source/MaxLikelihood.cpp.s
-
-UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.o: UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.o
-.PHONY : UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.o
-
-# target to build an object file
-UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.o
-.PHONY : UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.o
-
-UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.i: UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.i
-.PHONY : UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.i
-
-# target to preprocess a source file
-UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.i
-.PHONY : UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.i
-
-UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.s: UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.s
-.PHONY : UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.s
-
-# target to generate assembly for a file
-UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.s
-.PHONY : UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.s
-
-UDF/models/Smoothing/source/SavitzkyGolay.o: UDF/models/Smoothing/source/SavitzkyGolay.cpp.o
-.PHONY : UDF/models/Smoothing/source/SavitzkyGolay.o
-
-# target to build an object file
-UDF/models/Smoothing/source/SavitzkyGolay.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/Smoothing/source/SavitzkyGolay.cpp.o
-.PHONY : UDF/models/Smoothing/source/SavitzkyGolay.cpp.o
-
-UDF/models/Smoothing/source/SavitzkyGolay.i: UDF/models/Smoothing/source/SavitzkyGolay.cpp.i
-.PHONY : UDF/models/Smoothing/source/SavitzkyGolay.i
-
-# target to preprocess a source file
-UDF/models/Smoothing/source/SavitzkyGolay.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/Smoothing/source/SavitzkyGolay.cpp.i
-.PHONY : UDF/models/Smoothing/source/SavitzkyGolay.cpp.i
-
-UDF/models/Smoothing/source/SavitzkyGolay.s: UDF/models/Smoothing/source/SavitzkyGolay.cpp.s
-.PHONY : UDF/models/Smoothing/source/SavitzkyGolay.s
-
-# target to generate assembly for a file
-UDF/models/Smoothing/source/SavitzkyGolay.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/Smoothing/source/SavitzkyGolay.cpp.s
-.PHONY : UDF/models/Smoothing/source/SavitzkyGolay.cpp.s
-
-UDF/models/TechnicalIndicator/source/Autocovariance.o: UDF/models/TechnicalIndicator/source/Autocovariance.cpp.o
-.PHONY : UDF/models/TechnicalIndicator/source/Autocovariance.o
-
-# target to build an object file
-UDF/models/TechnicalIndicator/source/Autocovariance.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/TechnicalIndicator/source/Autocovariance.cpp.o
-.PHONY : UDF/models/TechnicalIndicator/source/Autocovariance.cpp.o
-
-UDF/models/TechnicalIndicator/source/Autocovariance.i: UDF/models/TechnicalIndicator/source/Autocovariance.cpp.i
-.PHONY : UDF/models/TechnicalIndicator/source/Autocovariance.i
-
-# target to preprocess a source file
-UDF/models/TechnicalIndicator/source/Autocovariance.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/TechnicalIndicator/source/Autocovariance.cpp.i
-.PHONY : UDF/models/TechnicalIndicator/source/Autocovariance.cpp.i
-
-UDF/models/TechnicalIndicator/source/Autocovariance.s: UDF/models/TechnicalIndicator/source/Autocovariance.cpp.s
-.PHONY : UDF/models/TechnicalIndicator/source/Autocovariance.s
-
-# target to generate assembly for a file
-UDF/models/TechnicalIndicator/source/Autocovariance.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/TechnicalIndicator/source/Autocovariance.cpp.s
-.PHONY : UDF/models/TechnicalIndicator/source/Autocovariance.cpp.s
-
-UDF/models/TechnicalIndicator/source/DoubleSMA.o: UDF/models/TechnicalIndicator/source/DoubleSMA.cpp.o
-.PHONY : UDF/models/TechnicalIndicator/source/DoubleSMA.o
-
-# target to build an object file
-UDF/models/TechnicalIndicator/source/DoubleSMA.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/TechnicalIndicator/source/DoubleSMA.cpp.o
-.PHONY : UDF/models/TechnicalIndicator/source/DoubleSMA.cpp.o
-
-UDF/models/TechnicalIndicator/source/DoubleSMA.i: UDF/models/TechnicalIndicator/source/DoubleSMA.cpp.i
-.PHONY : UDF/models/TechnicalIndicator/source/DoubleSMA.i
-
-# target to preprocess a source file
-UDF/models/TechnicalIndicator/source/DoubleSMA.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/TechnicalIndicator/source/DoubleSMA.cpp.i
-.PHONY : UDF/models/TechnicalIndicator/source/DoubleSMA.cpp.i
-
-UDF/models/TechnicalIndicator/source/DoubleSMA.s: UDF/models/TechnicalIndicator/source/DoubleSMA.cpp.s
-.PHONY : UDF/models/TechnicalIndicator/source/DoubleSMA.s
-
-# target to generate assembly for a file
-UDF/models/TechnicalIndicator/source/DoubleSMA.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/TechnicalIndicator/source/DoubleSMA.cpp.s
-.PHONY : UDF/models/TechnicalIndicator/source/DoubleSMA.cpp.s
-
-UDF/models/TechnicalIndicator/source/HalfLife.o: UDF/models/TechnicalIndicator/source/HalfLife.cpp.o
-.PHONY : UDF/models/TechnicalIndicator/source/HalfLife.o
-
-# target to build an object file
-UDF/models/TechnicalIndicator/source/HalfLife.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/TechnicalIndicator/source/HalfLife.cpp.o
-.PHONY : UDF/models/TechnicalIndicator/source/HalfLife.cpp.o
-
-UDF/models/TechnicalIndicator/source/HalfLife.i: UDF/models/TechnicalIndicator/source/HalfLife.cpp.i
-.PHONY : UDF/models/TechnicalIndicator/source/HalfLife.i
-
-# target to preprocess a source file
-UDF/models/TechnicalIndicator/source/HalfLife.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/TechnicalIndicator/source/HalfLife.cpp.i
-.PHONY : UDF/models/TechnicalIndicator/source/HalfLife.cpp.i
-
-UDF/models/TechnicalIndicator/source/HalfLife.s: UDF/models/TechnicalIndicator/source/HalfLife.cpp.s
-.PHONY : UDF/models/TechnicalIndicator/source/HalfLife.s
-
-# target to generate assembly for a file
-UDF/models/TechnicalIndicator/source/HalfLife.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/TechnicalIndicator/source/HalfLife.cpp.s
-.PHONY : UDF/models/TechnicalIndicator/source/HalfLife.cpp.s
-
-UDF/models/TechnicalIndicator/source/HurstExponent.o: UDF/models/TechnicalIndicator/source/HurstExponent.cpp.o
-.PHONY : UDF/models/TechnicalIndicator/source/HurstExponent.o
-
-# target to build an object file
-UDF/models/TechnicalIndicator/source/HurstExponent.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/TechnicalIndicator/source/HurstExponent.cpp.o
-.PHONY : UDF/models/TechnicalIndicator/source/HurstExponent.cpp.o
-
-UDF/models/TechnicalIndicator/source/HurstExponent.i: UDF/models/TechnicalIndicator/source/HurstExponent.cpp.i
-.PHONY : UDF/models/TechnicalIndicator/source/HurstExponent.i
-
-# target to preprocess a source file
-UDF/models/TechnicalIndicator/source/HurstExponent.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/TechnicalIndicator/source/HurstExponent.cpp.i
-.PHONY : UDF/models/TechnicalIndicator/source/HurstExponent.cpp.i
-
-UDF/models/TechnicalIndicator/source/HurstExponent.s: UDF/models/TechnicalIndicator/source/HurstExponent.cpp.s
-.PHONY : UDF/models/TechnicalIndicator/source/HurstExponent.s
-
-# target to generate assembly for a file
-UDF/models/TechnicalIndicator/source/HurstExponent.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/TechnicalIndicator/source/HurstExponent.cpp.s
-.PHONY : UDF/models/TechnicalIndicator/source/HurstExponent.cpp.s
-
-UDF/models/TechnicalIndicator/source/SingleSMA.o: UDF/models/TechnicalIndicator/source/SingleSMA.cpp.o
-.PHONY : UDF/models/TechnicalIndicator/source/SingleSMA.o
-
-# target to build an object file
-UDF/models/TechnicalIndicator/source/SingleSMA.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/TechnicalIndicator/source/SingleSMA.cpp.o
-.PHONY : UDF/models/TechnicalIndicator/source/SingleSMA.cpp.o
-
-UDF/models/TechnicalIndicator/source/SingleSMA.i: UDF/models/TechnicalIndicator/source/SingleSMA.cpp.i
-.PHONY : UDF/models/TechnicalIndicator/source/SingleSMA.i
-
-# target to preprocess a source file
-UDF/models/TechnicalIndicator/source/SingleSMA.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/TechnicalIndicator/source/SingleSMA.cpp.i
-.PHONY : UDF/models/TechnicalIndicator/source/SingleSMA.cpp.i
-
-UDF/models/TechnicalIndicator/source/SingleSMA.s: UDF/models/TechnicalIndicator/source/SingleSMA.cpp.s
-.PHONY : UDF/models/TechnicalIndicator/source/SingleSMA.s
-
-# target to generate assembly for a file
-UDF/models/TechnicalIndicator/source/SingleSMA.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/TechnicalIndicator/source/SingleSMA.cpp.s
-.PHONY : UDF/models/TechnicalIndicator/source/SingleSMA.cpp.s
-
-UDF/models/TechnicalIndicator/source/VarianceRatio.o: UDF/models/TechnicalIndicator/source/VarianceRatio.cpp.o
-.PHONY : UDF/models/TechnicalIndicator/source/VarianceRatio.o
-
-# target to build an object file
-UDF/models/TechnicalIndicator/source/VarianceRatio.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/TechnicalIndicator/source/VarianceRatio.cpp.o
-.PHONY : UDF/models/TechnicalIndicator/source/VarianceRatio.cpp.o
-
-UDF/models/TechnicalIndicator/source/VarianceRatio.i: UDF/models/TechnicalIndicator/source/VarianceRatio.cpp.i
-.PHONY : UDF/models/TechnicalIndicator/source/VarianceRatio.i
-
-# target to preprocess a source file
-UDF/models/TechnicalIndicator/source/VarianceRatio.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/TechnicalIndicator/source/VarianceRatio.cpp.i
-.PHONY : UDF/models/TechnicalIndicator/source/VarianceRatio.cpp.i
-
-UDF/models/TechnicalIndicator/source/VarianceRatio.s: UDF/models/TechnicalIndicator/source/VarianceRatio.cpp.s
-.PHONY : UDF/models/TechnicalIndicator/source/VarianceRatio.s
-
-# target to generate assembly for a file
-UDF/models/TechnicalIndicator/source/VarianceRatio.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/TechnicalIndicator/source/VarianceRatio.cpp.s
-.PHONY : UDF/models/TechnicalIndicator/source/VarianceRatio.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -2430,6 +2190,9 @@ help:
 	@echo "... IBJts/source/cppclient/client/protobufUnix/SoftDollarTier.pb.o"
 	@echo "... IBJts/source/cppclient/client/protobufUnix/SoftDollarTier.pb.i"
 	@echo "... IBJts/source/cppclient/client/protobufUnix/SoftDollarTier.pb.s"
+	@echo "... UDF/MakeContract/source/MakeContract.o"
+	@echo "... UDF/MakeContract/source/MakeContract.i"
+	@echo "... UDF/MakeContract/source/MakeContract.s"
 	@echo "... UDF/config/source/Config.o"
 	@echo "... UDF/config/source/Config.i"
 	@echo "... UDF/config/source/Config.s"
@@ -2448,39 +2211,6 @@ help:
 	@echo "... UDF/models/Combinatorics/source/Combinations.o"
 	@echo "... UDF/models/Combinatorics/source/Combinations.i"
 	@echo "... UDF/models/Combinatorics/source/Combinations.s"
-	@echo "... UDF/models/Combinatorics/source/CombinatoricsGenerator.o"
-	@echo "... UDF/models/Combinatorics/source/CombinatoricsGenerator.i"
-	@echo "... UDF/models/Combinatorics/source/CombinatoricsGenerator.s"
-	@echo "... UDF/models/Combinatorics/source/Permutations.o"
-	@echo "... UDF/models/Combinatorics/source/Permutations.i"
-	@echo "... UDF/models/Combinatorics/source/Permutations.s"
-	@echo "... UDF/models/OrnsteinUhlenbeck/source/MaxLikelihood.o"
-	@echo "... UDF/models/OrnsteinUhlenbeck/source/MaxLikelihood.i"
-	@echo "... UDF/models/OrnsteinUhlenbeck/source/MaxLikelihood.s"
-	@echo "... UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.o"
-	@echo "... UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.i"
-	@echo "... UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.s"
-	@echo "... UDF/models/Smoothing/source/SavitzkyGolay.o"
-	@echo "... UDF/models/Smoothing/source/SavitzkyGolay.i"
-	@echo "... UDF/models/Smoothing/source/SavitzkyGolay.s"
-	@echo "... UDF/models/TechnicalIndicator/source/Autocovariance.o"
-	@echo "... UDF/models/TechnicalIndicator/source/Autocovariance.i"
-	@echo "... UDF/models/TechnicalIndicator/source/Autocovariance.s"
-	@echo "... UDF/models/TechnicalIndicator/source/DoubleSMA.o"
-	@echo "... UDF/models/TechnicalIndicator/source/DoubleSMA.i"
-	@echo "... UDF/models/TechnicalIndicator/source/DoubleSMA.s"
-	@echo "... UDF/models/TechnicalIndicator/source/HalfLife.o"
-	@echo "... UDF/models/TechnicalIndicator/source/HalfLife.i"
-	@echo "... UDF/models/TechnicalIndicator/source/HalfLife.s"
-	@echo "... UDF/models/TechnicalIndicator/source/HurstExponent.o"
-	@echo "... UDF/models/TechnicalIndicator/source/HurstExponent.i"
-	@echo "... UDF/models/TechnicalIndicator/source/HurstExponent.s"
-	@echo "... UDF/models/TechnicalIndicator/source/SingleSMA.o"
-	@echo "... UDF/models/TechnicalIndicator/source/SingleSMA.i"
-	@echo "... UDF/models/TechnicalIndicator/source/SingleSMA.s"
-	@echo "... UDF/models/TechnicalIndicator/source/VarianceRatio.o"
-	@echo "... UDF/models/TechnicalIndicator/source/VarianceRatio.i"
-	@echo "... UDF/models/TechnicalIndicator/source/VarianceRatio.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

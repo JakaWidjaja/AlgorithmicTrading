@@ -2,30 +2,28 @@
 Consolidate compiler generated dependencies of target OpenXLSX
 Consolidate compiler generated dependencies of target nlopt
 [ 16%] Built target OpenXLSX
-[ 44%] Built target nlopt
+[ 45%] Built target nlopt
 Consolidate compiler generated dependencies of target Demo2
-Consolidate compiler generated dependencies of target Demo4
 Consolidate compiler generated dependencies of target Demo3
+Consolidate compiler generated dependencies of target Demo4
+Consolidate compiler generated dependencies of target Demo5
 Consolidate compiler generated dependencies of target Demo6
 Consolidate compiler generated dependencies of target Demo1
 Consolidate compiler generated dependencies of target Demo7
-Consolidate compiler generated dependencies of target Demo5
-Consolidate compiler generated dependencies of target Demo8
-Consolidate compiler generated dependencies of target Demo10
 Consolidate compiler generated dependencies of target Demo9
+Consolidate compiler generated dependencies of target Demo8
 [ 46%] Built target Demo2
-[ 46%] Built target Demo3
-[ 47%] Built target Demo6
-[ 48%] Built target Demo1
-[ 49%] Built target Demo4
-[ 50%] Built target Demo7
-[ 51%] Built target Demo5
-[ 52%] Built target Demo8
-[ 53%] Built target Demo9
-[ 54%] Built target Demo10
+Consolidate compiler generated dependencies of target Demo10
+[ 48%] Built target Demo6
+[ 47%] Built target Demo3
+[ 50%] Built target Demo5
+[ 51%] Built target Demo4
+[ 52%] Built target Demo1
+[ 53%] Built target Demo7
+[ 55%] Built target Demo8
+[ 56%] Built target Demo9
+[ 57%] Built target Demo10
 Consolidate compiler generated dependencies of target main
-[ 55%] Building CXX object CMakeFiles/main.dir/IBClient/source/OrderManager.cpp.o
-[ 56%] Building CXX object CMakeFiles/main.dir/IBClient/source/IBClient.cpp.o
-[ 58%] Building CXX object CMakeFiles/main.dir/main.cpp.o
-[ 59%] Linking CXX executable main
+[ 57%] Building CXX object CMakeFiles/main.dir/main.cpp.o
+[ 58%] Linking CXX executable main
 [100%] Built target main

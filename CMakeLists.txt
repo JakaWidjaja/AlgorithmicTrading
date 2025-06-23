@@ -15,10 +15,8 @@ include_directories(
     ${PROJECT_SOURCE_DIR}/IBJts/source/cppclient/common
     ${PROJECT_SOURCE_DIR}/IBClient/include
     ${PROJECT_SOURCE_DIR}/UDF/config/include
-    ${PROJECT_SOURCE_DIR}/UDF/models/OrnsteinUhlenbeck/include
+    ${PROJECT_SOURCE_DIR}/UDF/MakeContract/include
     ${PROJECT_SOURCE_DIR}/UDF/models/Combinatorics/include
-    ${PROJECT_SOURCE_DIR}/UDF/models/TechnicalIndicator/include
-    ${PROJECT_SOURCE_DIR}/UDF/models/Smoothing/include
 )
 
 # Add all required source files
@@ -46,21 +44,11 @@ list(APPEND SOURCES
     ${PROJECT_SOURCE_DIR}/UDF/config/source/ConfigModel.cpp
     ${PROJECT_SOURCE_DIR}/UDF/config/source/ConfigParams.cpp
     ${PROJECT_SOURCE_DIR}/UDF/config/source/ConfigContract.cpp
-    ${PROJECT_SOURCE_DIR}/UDF/models/OrnsteinUhlenbeck/source/MaxLikelihood.cpp
-    ${PROJECT_SOURCE_DIR}/UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp
-    ${PROJECT_SOURCE_DIR}/UDF/models/Combinatorics/source/CombinatoricsGenerator.cpp
+    ${PROJECT_SOURCE_DIR}/UDF/MakeContract/source/MakeContract.cpp
     ${PROJECT_SOURCE_DIR}/UDF/models/Combinatorics/source/Combinations.cpp
-    ${PROJECT_SOURCE_DIR}/UDF/models/Combinatorics/source/Permutations.cpp
-    ${PROJECT_SOURCE_DIR}/UDF/models/TechnicalIndicator/source/Autocovariance.cpp
-    ${PROJECT_SOURCE_DIR}/UDF/models/TechnicalIndicator/source/DoubleSMA.cpp
-    ${PROJECT_SOURCE_DIR}/UDF/models/TechnicalIndicator/source/SingleSMA.cpp
-    ${PROJECT_SOURCE_DIR}/UDF/models/TechnicalIndicator/source/HurstExponent.cpp
-    ${PROJECT_SOURCE_DIR}/UDF/models/TechnicalIndicator/source/VarianceRatio.cpp
-    ${PROJECT_SOURCE_DIR}/UDF/models/TechnicalIndicator/source/HalfLife.cpp
-    ${PROJECT_SOURCE_DIR}/UDF/models/Smoothing/source/SavitzkyGolay.cpp
 )
 
-# Add OpenXLSX
+# Add external libraries
 add_subdirectory(external/OpenXLSX)
 add_subdirectory(external/nlopt)
 include_directories(${PROJECT_SOURCE_DIR}/external/OpenXLSX)
