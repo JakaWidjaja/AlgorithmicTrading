@@ -44,10 +44,10 @@ public:
 	void exportToCSV(int reqId, const std::string& filename) const; // single ticker
 	void exportToCSV(const std::string& filename) const;            // multiple tickers
 	void exportToCSV(const std::string& filename, const std::set<std::string>& columnNames) const; // multiple tickers and selected column
-	void exportMatrixToCSV(const std:;string& filename) const;
+	void exportMatrixToCSV(const std::string& filename) const;
 	
 	std::vector<std::tuple<std::string, std::string, double>> flattenedClosePrice() const; // date, tickers, close price
-	std::map<std::string, std::map<std::string, double>> matrixClosePrice() const // column consist of date and ticker names. data are displayed as row
+	std::map<std::string, std::map<std::string, double>> matrixClosePrice() const; // column consist of date and ticker names. data are displayed as row
 	
 private:
 	EClientSocket* clientSocket = nullptr;
@@ -55,5 +55,7 @@ private:
 	std::map<int, Contract> reqIdToContract;
 
 };
+
+
 
 #endif

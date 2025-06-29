@@ -6,8 +6,10 @@
 #include "ConfigContract.h"
 #include "MakeContract.h"
 #include "Contract.h"
-#include "Combinations.h"
+#include "MeanRevertingPortfolio.h"
+#include "PortfolioSelection.h"
 
+#include <Eigen/Dense>
 #include <iostream>
 #include <string>
 #include <memory>
@@ -15,11 +17,13 @@
 #include <sstream>
 #include <iomanip>
 #include <set>
+#include <map>
 
 using std::string;
 using std::shared_ptr;
 using std::vector;
 using std::set;
+using std::map;
 
 using std::cout;
 using std::endl;
@@ -69,33 +73,38 @@ int main()
                                  paramsConfig -> getInterval(), 
                                  "TRADES");
 
-    set<string> colNames = {"date", "symbol", "close"};
-    client.exportHistoricalDataToCSV("/home/lun/Desktop/Folder 2/AlgoTradingC++/strategy/data/USEquity" + TodayDate() + ".csv", 
-                                     colNames);
+    auto histData = client.matrixClosePrice();
+    client.exportMatrixToCSV("/home/lun/Desktop/Folder 2/AlgoTradingC++/strategy/data/USEquity" + TodayDate() + ".csv");
 
-    auto data = client.getHistoricalDataHandler().flattenedClosePrice();
-    for (const auto& [date, ticker, close] : data) {
-        std::cout << date << ", " << ticker << ", " << close << "\n";
-    }
     
-    /*
     // Model calibration and create signal 
+    // Select stocks to trade
+
     vector<string> tickers;
     int count = 0;
     for(const auto& t : contractConfig -> getContracts())
     {
         tickers.push_back(t.symbol);
     }
+
+    Eigen::MatrixXd priceMatrix;
+    vector<string> dateList;
+    vector<string> stockList;
+    PortfolioSelection::reshapePriceMatrixData(histData, priceMatrix, dateList, stockList); // re-shape hist Data
     
-    Combinations comb;
-    auto portCombinations = comb.generate(tickers, modelConfig -> getStockCombinations()); 
-    */
-
-
-
-
-
-
+    MeanRevertingPortfolio mrPort(modelConfig -> getTopStocks(), modelConfig -> getCalibrationData());
+    vector<vector<string>> portCombinations = mrPort.stockSelection(priceMatrix, stockList, modelConfig -> getStockCombinations(), "low");
+    vector<portfolioRow> portWeights = mrPort.portfolioPositions(portCombinations, priceMatrix, stockList, modelConfig -> getLongShortIndicator());
+    
+    // Print results
+    for (const auto& row : portWeights)
+    {
+        cout << "Combination: ";
+        for (const auto& s : row.combination) cout << s << " ";
+        cout << "| Weights: ";
+        for (const auto& w : row.weights) cout << w << " ";
+        cout << endl;
+    }
 
     // Disconnect to TWS
     client.disconnect();

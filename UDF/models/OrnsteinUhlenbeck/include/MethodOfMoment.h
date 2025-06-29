@@ -3,7 +3,7 @@
 
 #include "OrnsteinUhlenbeck.h"
 
-#include <vector>
+#include <tuple>
 
 class MethodOfMoment : public OrnsteinUhlenbeck
 {
@@ -11,7 +11,7 @@ public:
 	MethodOfMoment();
 	~MethodOfMoment() override;
 
-	std::vector<double> calibrate(const std::vector<double>& timeSeries) const override;
+	std::tuple<double, double, double> calibrate(const std::vector<double>& timeSeries) const override;
 
 private:
 

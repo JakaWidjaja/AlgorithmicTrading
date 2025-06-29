@@ -713,10 +713,80 @@ CMakeFiles/main.dir/UDF/models/Combinatorics/source/Combinations.cpp.s: cmake_fo
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/UDF/models/Combinatorics/source/Combinations.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/lun/Desktop/Folder 2/AlgoTradingC++/UDF/models/Combinatorics/source/Combinations.cpp" -o CMakeFiles/main.dir/UDF/models/Combinatorics/source/Combinations.cpp.s
 
+CMakeFiles/main.dir/UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.o: ../UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp
+CMakeFiles/main.dir/UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/main.dir/UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.o -MF CMakeFiles/main.dir/UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.o.d -o CMakeFiles/main.dir/UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.o -c "/home/lun/Desktop/Folder 2/AlgoTradingC++/UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp"
+
+CMakeFiles/main.dir/UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/lun/Desktop/Folder 2/AlgoTradingC++/UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp" > CMakeFiles/main.dir/UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.i
+
+CMakeFiles/main.dir/UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/lun/Desktop/Folder 2/AlgoTradingC++/UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp" -o CMakeFiles/main.dir/UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.s
+
+CMakeFiles/main.dir/UDF/models/Smoothing/source/SavitzkyGolay.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/UDF/models/Smoothing/source/SavitzkyGolay.cpp.o: ../UDF/models/Smoothing/source/SavitzkyGolay.cpp
+CMakeFiles/main.dir/UDF/models/Smoothing/source/SavitzkyGolay.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/main.dir/UDF/models/Smoothing/source/SavitzkyGolay.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/UDF/models/Smoothing/source/SavitzkyGolay.cpp.o -MF CMakeFiles/main.dir/UDF/models/Smoothing/source/SavitzkyGolay.cpp.o.d -o CMakeFiles/main.dir/UDF/models/Smoothing/source/SavitzkyGolay.cpp.o -c "/home/lun/Desktop/Folder 2/AlgoTradingC++/UDF/models/Smoothing/source/SavitzkyGolay.cpp"
+
+CMakeFiles/main.dir/UDF/models/Smoothing/source/SavitzkyGolay.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/UDF/models/Smoothing/source/SavitzkyGolay.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/lun/Desktop/Folder 2/AlgoTradingC++/UDF/models/Smoothing/source/SavitzkyGolay.cpp" > CMakeFiles/main.dir/UDF/models/Smoothing/source/SavitzkyGolay.cpp.i
+
+CMakeFiles/main.dir/UDF/models/Smoothing/source/SavitzkyGolay.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/UDF/models/Smoothing/source/SavitzkyGolay.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/lun/Desktop/Folder 2/AlgoTradingC++/UDF/models/Smoothing/source/SavitzkyGolay.cpp" -o CMakeFiles/main.dir/UDF/models/Smoothing/source/SavitzkyGolay.cpp.s
+
+CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioSelection.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioSelection.cpp.o: ../strategy/Portfolio/source/PortfolioSelection.cpp
+CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioSelection.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioSelection.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioSelection.cpp.o -MF CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioSelection.cpp.o.d -o CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioSelection.cpp.o -c "/home/lun/Desktop/Folder 2/AlgoTradingC++/strategy/Portfolio/source/PortfolioSelection.cpp"
+
+CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioSelection.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioSelection.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/lun/Desktop/Folder 2/AlgoTradingC++/strategy/Portfolio/source/PortfolioSelection.cpp" > CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioSelection.cpp.i
+
+CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioSelection.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioSelection.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/lun/Desktop/Folder 2/AlgoTradingC++/strategy/Portfolio/source/PortfolioSelection.cpp" -o CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioSelection.cpp.s
+
+CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioWeightsOH.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioWeightsOH.cpp.o: ../strategy/Portfolio/source/PortfolioWeightsOH.cpp
+CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioWeightsOH.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioWeightsOH.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioWeightsOH.cpp.o -MF CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioWeightsOH.cpp.o.d -o CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioWeightsOH.cpp.o -c "/home/lun/Desktop/Folder 2/AlgoTradingC++/strategy/Portfolio/source/PortfolioWeightsOH.cpp"
+
+CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioWeightsOH.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioWeightsOH.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/lun/Desktop/Folder 2/AlgoTradingC++/strategy/Portfolio/source/PortfolioWeightsOH.cpp" > CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioWeightsOH.cpp.i
+
+CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioWeightsOH.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioWeightsOH.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/lun/Desktop/Folder 2/AlgoTradingC++/strategy/Portfolio/source/PortfolioWeightsOH.cpp" -o CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioWeightsOH.cpp.s
+
+CMakeFiles/main.dir/strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.cpp.o: ../strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.cpp
+CMakeFiles/main.dir/strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/main.dir/strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.cpp.o -MF CMakeFiles/main.dir/strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.cpp.o.d -o CMakeFiles/main.dir/strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.cpp.o -c "/home/lun/Desktop/Folder 2/AlgoTradingC++/strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.cpp"
+
+CMakeFiles/main.dir/strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/lun/Desktop/Folder 2/AlgoTradingC++/strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.cpp" > CMakeFiles/main.dir/strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.cpp.i
+
+CMakeFiles/main.dir/strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/lun/Desktop/Folder 2/AlgoTradingC++/strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.cpp" -o CMakeFiles/main.dir/strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.cpp.s
+
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/SoftDollarTier.pb.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/SoftDollarTier.pb.cc.o: ../IBJts/source/cppclient/client/protobufUnix/SoftDollarTier.pb.cc
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/SoftDollarTier.pb.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/SoftDollarTier.pb.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/SoftDollarTier.pb.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/SoftDollarTier.pb.cc.o -MF CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/SoftDollarTier.pb.cc.o.d -o CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/SoftDollarTier.pb.cc.o -c "/home/lun/Desktop/Folder 2/AlgoTradingC++/IBJts/source/cppclient/client/protobufUnix/SoftDollarTier.pb.cc"
 
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/SoftDollarTier.pb.cc.i: cmake_force
@@ -730,7 +800,7 @@ CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/SoftDollarTier.pb
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/PlaceOrderRequest.pb.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/PlaceOrderRequest.pb.cc.o: ../IBJts/source/cppclient/client/protobufUnix/PlaceOrderRequest.pb.cc
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/PlaceOrderRequest.pb.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/PlaceOrderRequest.pb.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/PlaceOrderRequest.pb.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/PlaceOrderRequest.pb.cc.o -MF CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/PlaceOrderRequest.pb.cc.o.d -o CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/PlaceOrderRequest.pb.cc.o -c "/home/lun/Desktop/Folder 2/AlgoTradingC++/IBJts/source/cppclient/client/protobufUnix/PlaceOrderRequest.pb.cc"
 
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/PlaceOrderRequest.pb.cc.i: cmake_force
@@ -744,7 +814,7 @@ CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/PlaceOrderRequest
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderStatus.pb.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderStatus.pb.cc.o: ../IBJts/source/cppclient/client/protobufUnix/OrderStatus.pb.cc
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderStatus.pb.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderStatus.pb.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderStatus.pb.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderStatus.pb.cc.o -MF CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderStatus.pb.cc.o.d -o CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderStatus.pb.cc.o -c "/home/lun/Desktop/Folder 2/AlgoTradingC++/IBJts/source/cppclient/client/protobufUnix/OrderStatus.pb.cc"
 
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderStatus.pb.cc.i: cmake_force
@@ -758,7 +828,7 @@ CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderStatus.pb.cc
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderState.pb.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderState.pb.cc.o: ../IBJts/source/cppclient/client/protobufUnix/OrderState.pb.cc
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderState.pb.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderState.pb.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderState.pb.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderState.pb.cc.o -MF CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderState.pb.cc.o.d -o CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderState.pb.cc.o -c "/home/lun/Desktop/Folder 2/AlgoTradingC++/IBJts/source/cppclient/client/protobufUnix/OrderState.pb.cc"
 
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderState.pb.cc.i: cmake_force
@@ -772,7 +842,7 @@ CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderState.pb.cc.
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderCondition.pb.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderCondition.pb.cc.o: ../IBJts/source/cppclient/client/protobufUnix/OrderCondition.pb.cc
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderCondition.pb.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderCondition.pb.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderCondition.pb.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderCondition.pb.cc.o -MF CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderCondition.pb.cc.o.d -o CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderCondition.pb.cc.o -c "/home/lun/Desktop/Folder 2/AlgoTradingC++/IBJts/source/cppclient/client/protobufUnix/OrderCondition.pb.cc"
 
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderCondition.pb.cc.i: cmake_force
@@ -786,7 +856,7 @@ CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderCondition.pb
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderCancel.pb.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderCancel.pb.cc.o: ../IBJts/source/cppclient/client/protobufUnix/OrderCancel.pb.cc
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderCancel.pb.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderCancel.pb.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderCancel.pb.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderCancel.pb.cc.o -MF CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderCancel.pb.cc.o.d -o CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderCancel.pb.cc.o -c "/home/lun/Desktop/Folder 2/AlgoTradingC++/IBJts/source/cppclient/client/protobufUnix/OrderCancel.pb.cc"
 
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderCancel.pb.cc.i: cmake_force
@@ -800,7 +870,7 @@ CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderCancel.pb.cc
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderAllocation.pb.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderAllocation.pb.cc.o: ../IBJts/source/cppclient/client/protobufUnix/OrderAllocation.pb.cc
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderAllocation.pb.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderAllocation.pb.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderAllocation.pb.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderAllocation.pb.cc.o -MF CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderAllocation.pb.cc.o.d -o CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderAllocation.pb.cc.o -c "/home/lun/Desktop/Folder 2/AlgoTradingC++/IBJts/source/cppclient/client/protobufUnix/OrderAllocation.pb.cc"
 
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderAllocation.pb.cc.i: cmake_force
@@ -814,7 +884,7 @@ CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderAllocation.p
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/Order.pb.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/Order.pb.cc.o: ../IBJts/source/cppclient/client/protobufUnix/Order.pb.cc
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/Order.pb.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/Order.pb.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/Order.pb.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/Order.pb.cc.o -MF CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/Order.pb.cc.o.d -o CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/Order.pb.cc.o -c "/home/lun/Desktop/Folder 2/AlgoTradingC++/IBJts/source/cppclient/client/protobufUnix/Order.pb.cc"
 
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/Order.pb.cc.i: cmake_force
@@ -828,7 +898,7 @@ CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/Order.pb.cc.s: cm
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OpenOrdersEnd.pb.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OpenOrdersEnd.pb.cc.o: ../IBJts/source/cppclient/client/protobufUnix/OpenOrdersEnd.pb.cc
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OpenOrdersEnd.pb.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OpenOrdersEnd.pb.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OpenOrdersEnd.pb.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OpenOrdersEnd.pb.cc.o -MF CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OpenOrdersEnd.pb.cc.o.d -o CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OpenOrdersEnd.pb.cc.o -c "/home/lun/Desktop/Folder 2/AlgoTradingC++/IBJts/source/cppclient/client/protobufUnix/OpenOrdersEnd.pb.cc"
 
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OpenOrdersEnd.pb.cc.i: cmake_force
@@ -842,7 +912,7 @@ CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OpenOrdersEnd.pb.
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OpenOrder.pb.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OpenOrder.pb.cc.o: ../IBJts/source/cppclient/client/protobufUnix/OpenOrder.pb.cc
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OpenOrder.pb.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OpenOrder.pb.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OpenOrder.pb.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OpenOrder.pb.cc.o -MF CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OpenOrder.pb.cc.o.d -o CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OpenOrder.pb.cc.o -c "/home/lun/Desktop/Folder 2/AlgoTradingC++/IBJts/source/cppclient/client/protobufUnix/OpenOrder.pb.cc"
 
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OpenOrder.pb.cc.i: cmake_force
@@ -856,7 +926,7 @@ CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OpenOrder.pb.cc.s
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/GlobalCancelRequest.pb.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/GlobalCancelRequest.pb.cc.o: ../IBJts/source/cppclient/client/protobufUnix/GlobalCancelRequest.pb.cc
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/GlobalCancelRequest.pb.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/GlobalCancelRequest.pb.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/GlobalCancelRequest.pb.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/GlobalCancelRequest.pb.cc.o -MF CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/GlobalCancelRequest.pb.cc.o.d -o CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/GlobalCancelRequest.pb.cc.o -c "/home/lun/Desktop/Folder 2/AlgoTradingC++/IBJts/source/cppclient/client/protobufUnix/GlobalCancelRequest.pb.cc"
 
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/GlobalCancelRequest.pb.cc.i: cmake_force
@@ -870,7 +940,7 @@ CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/GlobalCancelReque
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ExecutionRequest.pb.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ExecutionRequest.pb.cc.o: ../IBJts/source/cppclient/client/protobufUnix/ExecutionRequest.pb.cc
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ExecutionRequest.pb.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ExecutionRequest.pb.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ExecutionRequest.pb.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ExecutionRequest.pb.cc.o -MF CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ExecutionRequest.pb.cc.o.d -o CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ExecutionRequest.pb.cc.o -c "/home/lun/Desktop/Folder 2/AlgoTradingC++/IBJts/source/cppclient/client/protobufUnix/ExecutionRequest.pb.cc"
 
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ExecutionRequest.pb.cc.i: cmake_force
@@ -884,7 +954,7 @@ CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ExecutionRequest.
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ExecutionFilter.pb.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ExecutionFilter.pb.cc.o: ../IBJts/source/cppclient/client/protobufUnix/ExecutionFilter.pb.cc
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ExecutionFilter.pb.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ExecutionFilter.pb.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ExecutionFilter.pb.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ExecutionFilter.pb.cc.o -MF CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ExecutionFilter.pb.cc.o.d -o CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ExecutionFilter.pb.cc.o -c "/home/lun/Desktop/Folder 2/AlgoTradingC++/IBJts/source/cppclient/client/protobufUnix/ExecutionFilter.pb.cc"
 
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ExecutionFilter.pb.cc.i: cmake_force
@@ -898,7 +968,7 @@ CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ExecutionFilter.p
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ExecutionDetailsEnd.pb.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ExecutionDetailsEnd.pb.cc.o: ../IBJts/source/cppclient/client/protobufUnix/ExecutionDetailsEnd.pb.cc
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ExecutionDetailsEnd.pb.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ExecutionDetailsEnd.pb.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ExecutionDetailsEnd.pb.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ExecutionDetailsEnd.pb.cc.o -MF CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ExecutionDetailsEnd.pb.cc.o.d -o CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ExecutionDetailsEnd.pb.cc.o -c "/home/lun/Desktop/Folder 2/AlgoTradingC++/IBJts/source/cppclient/client/protobufUnix/ExecutionDetailsEnd.pb.cc"
 
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ExecutionDetailsEnd.pb.cc.i: cmake_force
@@ -912,7 +982,7 @@ CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ExecutionDetailsE
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ExecutionDetails.pb.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ExecutionDetails.pb.cc.o: ../IBJts/source/cppclient/client/protobufUnix/ExecutionDetails.pb.cc
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ExecutionDetails.pb.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ExecutionDetails.pb.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ExecutionDetails.pb.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ExecutionDetails.pb.cc.o -MF CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ExecutionDetails.pb.cc.o.d -o CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ExecutionDetails.pb.cc.o -c "/home/lun/Desktop/Folder 2/AlgoTradingC++/IBJts/source/cppclient/client/protobufUnix/ExecutionDetails.pb.cc"
 
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ExecutionDetails.pb.cc.i: cmake_force
@@ -926,7 +996,7 @@ CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ExecutionDetails.
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/Execution.pb.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/Execution.pb.cc.o: ../IBJts/source/cppclient/client/protobufUnix/Execution.pb.cc
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/Execution.pb.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/Execution.pb.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/Execution.pb.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/Execution.pb.cc.o -MF CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/Execution.pb.cc.o.d -o CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/Execution.pb.cc.o -c "/home/lun/Desktop/Folder 2/AlgoTradingC++/IBJts/source/cppclient/client/protobufUnix/Execution.pb.cc"
 
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/Execution.pb.cc.i: cmake_force
@@ -940,7 +1010,7 @@ CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/Execution.pb.cc.s
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ErrorMessage.pb.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ErrorMessage.pb.cc.o: ../IBJts/source/cppclient/client/protobufUnix/ErrorMessage.pb.cc
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ErrorMessage.pb.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ErrorMessage.pb.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ErrorMessage.pb.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ErrorMessage.pb.cc.o -MF CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ErrorMessage.pb.cc.o.d -o CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ErrorMessage.pb.cc.o -c "/home/lun/Desktop/Folder 2/AlgoTradingC++/IBJts/source/cppclient/client/protobufUnix/ErrorMessage.pb.cc"
 
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ErrorMessage.pb.cc.i: cmake_force
@@ -954,7 +1024,7 @@ CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ErrorMessage.pb.c
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/DeltaNeutralContract.pb.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/DeltaNeutralContract.pb.cc.o: ../IBJts/source/cppclient/client/protobufUnix/DeltaNeutralContract.pb.cc
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/DeltaNeutralContract.pb.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/DeltaNeutralContract.pb.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/DeltaNeutralContract.pb.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/DeltaNeutralContract.pb.cc.o -MF CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/DeltaNeutralContract.pb.cc.o.d -o CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/DeltaNeutralContract.pb.cc.o -c "/home/lun/Desktop/Folder 2/AlgoTradingC++/IBJts/source/cppclient/client/protobufUnix/DeltaNeutralContract.pb.cc"
 
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/DeltaNeutralContract.pb.cc.i: cmake_force
@@ -968,7 +1038,7 @@ CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/DeltaNeutralContr
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/Contract.pb.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/Contract.pb.cc.o: ../IBJts/source/cppclient/client/protobufUnix/Contract.pb.cc
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/Contract.pb.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/Contract.pb.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/Contract.pb.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/Contract.pb.cc.o -MF CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/Contract.pb.cc.o.d -o CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/Contract.pb.cc.o -c "/home/lun/Desktop/Folder 2/AlgoTradingC++/IBJts/source/cppclient/client/protobufUnix/Contract.pb.cc"
 
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/Contract.pb.cc.i: cmake_force
@@ -982,7 +1052,7 @@ CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/Contract.pb.cc.s:
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ComboLeg.pb.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ComboLeg.pb.cc.o: ../IBJts/source/cppclient/client/protobufUnix/ComboLeg.pb.cc
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ComboLeg.pb.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ComboLeg.pb.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ComboLeg.pb.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ComboLeg.pb.cc.o -MF CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ComboLeg.pb.cc.o.d -o CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ComboLeg.pb.cc.o -c "/home/lun/Desktop/Folder 2/AlgoTradingC++/IBJts/source/cppclient/client/protobufUnix/ComboLeg.pb.cc"
 
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ComboLeg.pb.cc.i: cmake_force
@@ -996,7 +1066,7 @@ CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/ComboLeg.pb.cc.s:
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/CancelOrderRequest.pb.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/CancelOrderRequest.pb.cc.o: ../IBJts/source/cppclient/client/protobufUnix/CancelOrderRequest.pb.cc
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/CancelOrderRequest.pb.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/CancelOrderRequest.pb.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/CancelOrderRequest.pb.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/CancelOrderRequest.pb.cc.o -MF CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/CancelOrderRequest.pb.cc.o.d -o CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/CancelOrderRequest.pb.cc.o -c "/home/lun/Desktop/Folder 2/AlgoTradingC++/IBJts/source/cppclient/client/protobufUnix/CancelOrderRequest.pb.cc"
 
 CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/CancelOrderRequest.pb.cc.i: cmake_force
@@ -1055,6 +1125,11 @@ main_OBJECTS = \
 "CMakeFiles/main.dir/UDF/config/source/ConfigContract.cpp.o" \
 "CMakeFiles/main.dir/UDF/MakeContract/source/MakeContract.cpp.o" \
 "CMakeFiles/main.dir/UDF/models/Combinatorics/source/Combinations.cpp.o" \
+"CMakeFiles/main.dir/UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.o" \
+"CMakeFiles/main.dir/UDF/models/Smoothing/source/SavitzkyGolay.cpp.o" \
+"CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioSelection.cpp.o" \
+"CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioWeightsOH.cpp.o" \
+"CMakeFiles/main.dir/strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.cpp.o" \
 "CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/SoftDollarTier.pb.cc.o" \
 "CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/PlaceOrderRequest.pb.cc.o" \
 "CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderStatus.pb.cc.o" \
@@ -1126,6 +1201,11 @@ main: CMakeFiles/main.dir/UDF/config/source/ConfigParams.cpp.o
 main: CMakeFiles/main.dir/UDF/config/source/ConfigContract.cpp.o
 main: CMakeFiles/main.dir/UDF/MakeContract/source/MakeContract.cpp.o
 main: CMakeFiles/main.dir/UDF/models/Combinatorics/source/Combinations.cpp.o
+main: CMakeFiles/main.dir/UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.o
+main: CMakeFiles/main.dir/UDF/models/Smoothing/source/SavitzkyGolay.cpp.o
+main: CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioSelection.cpp.o
+main: CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioWeightsOH.cpp.o
+main: CMakeFiles/main.dir/strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.cpp.o
 main: CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/SoftDollarTier.pb.cc.o
 main: CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/PlaceOrderRequest.pb.cc.o
 main: CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/OrderStatus.pb.cc.o
@@ -1153,7 +1233,7 @@ main: output/libOpenXLSX.a
 main: external/nlopt/libnlopt.so.1.0.0
 main: /usr/lib/x86_64-linux-gnu/libm.so
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_68) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/lun/Desktop/Folder 2/AlgoTradingC++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_73) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -51,8 +51,10 @@ public:
 	void exportHistoricalDataToCSV(int reqId, const std::string& filename) const;
 	void exportHistoricalDataToCSV(const std::string& filename) const;
 	void exportHistoricalDataToCSV(const std::string& filename, const std::set<std::string>& columnNames) const;
+	void exportMatrixToCSV(const std::string& filename) const;
 	const HistoricalData& getHistoricalDataHandler() const {return histData;}
 	std::vector<std::tuple<std::string, std::string, double>> flattenedClosePrice() const;
+	std::map<std::string, std::map<std::string, double>> matrixClosePrice() const;
 
 	// Order manager
 	void placeMarketOrder(const Contract& contract, double quantity, const std::string& direction);

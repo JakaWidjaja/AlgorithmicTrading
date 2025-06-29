@@ -14,6 +14,7 @@
 
 using std::vector;
 using std::string;
+using std::to_string;
 using std::shared_ptr;
 using std::move;
 using std::runtime_error;
@@ -23,6 +24,7 @@ using std::set;
 using std::tuple;
 using std::sort;
 using std::get;
+using std::map;
 
 void HistoricalData::setClient(EClientSocket* client) 
 {
@@ -118,6 +120,25 @@ vector<tuple<string, string, double>> HistoricalData::flattenedClosePrice() cons
     sort(flatData.begin(), flatData.end(), [](const auto& a, const auto& b){return get<0>(a) < get<0>(b);});
 
     return flatData;
+}
+
+map<string, map<string, double>> HistoricalData::matrixClosePrice() const
+{
+    map<string, map<string, double>> matrix;
+
+    for(const auto& [reqId, bars] : historicalDataMap)
+    {
+        auto cit = reqIdToContract.find(reqId);
+        if(cit == reqIdToContract.end())
+            {continue;}
+
+        const string& symbol = cit -> second.symbol;
+        for(const auto& bar : bars)
+        {
+            matrix[bar.time][symbol] = bar.close;
+        }
+    }
+    return matrix;
 }
 
 void HistoricalData::exportToCSV(int reqId, const string& filename) const
@@ -219,6 +240,46 @@ void HistoricalData::exportToCSV(const string& filename, const set<string>& colu
             outFile.seekp(-1, std::ios_base::cur); // remove trailing comma
             outFile << "\n";
         }
+    }
+
+    outFile.close();
+}
+
+void HistoricalData::exportMatrixToCSV(const string& filename) const
+{
+    auto matrix = matrixClosePrice();
+
+    set<string> symbols;
+    for(const auto& [_, row] : matrix)
+    {
+        for(const auto& [symbol, _] : row)
+        {
+            symbols.insert(symbol);
+        }
+    }
+
+    ofstream outFile(filename);
+    if(!outFile.is_open())
+    {
+        throw runtime_error("Failed to open file: " + filename);
+    }
+
+    outFile << "date";
+    for(const auto& sym : symbols)
+    {
+        outFile << "," << sym;
+    }
+    outFile << "\n";
+
+    for(const auto& [date, row] : matrix)
+    {
+        outFile << date;
+        for(const auto& sym : symbols)
+        {
+            auto it = row.find(sym);
+            outFile << "," << (it != row.end() ? to_string(it -> second) : "");
+        }
+        outFile << "\n";
     }
 
     outFile.close();

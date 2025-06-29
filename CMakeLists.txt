@@ -17,6 +17,10 @@ include_directories(
     ${PROJECT_SOURCE_DIR}/UDF/config/include
     ${PROJECT_SOURCE_DIR}/UDF/MakeContract/include
     ${PROJECT_SOURCE_DIR}/UDF/models/Combinatorics/include
+    ${PROJECT_SOURCE_DIR}/UDF/models/OrnsteinUhlenbeck/include
+    ${PROJECT_SOURCE_DIR}/UDF/models/Smoothing/include
+    ${PROJECT_SOURCE_DIR}/strategy/Portfolio/include
+    ${PROJECT_SOURCE_DIR}/strategy/MeanRevertingPortfolio/include
 )
 
 # Add all required source files
@@ -46,6 +50,11 @@ list(APPEND SOURCES
     ${PROJECT_SOURCE_DIR}/UDF/config/source/ConfigContract.cpp
     ${PROJECT_SOURCE_DIR}/UDF/MakeContract/source/MakeContract.cpp
     ${PROJECT_SOURCE_DIR}/UDF/models/Combinatorics/source/Combinations.cpp
+    ${PROJECT_SOURCE_DIR}/UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp
+    ${PROJECT_SOURCE_DIR}/UDF/models/Smoothing/source/SavitzkyGolay.cpp
+    ${PROJECT_SOURCE_DIR}/strategy/Portfolio/source/PortfolioSelection.cpp
+    ${PROJECT_SOURCE_DIR}/strategy/Portfolio/source/PortfolioWeightsOH.cpp
+    ${PROJECT_SOURCE_DIR}/strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.cpp
 )
 
 # Add external libraries

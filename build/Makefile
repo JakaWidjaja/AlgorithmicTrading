@@ -1960,6 +1960,54 @@ UDF/models/Combinatorics/source/Combinations.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/Combinatorics/source/Combinations.cpp.s
 .PHONY : UDF/models/Combinatorics/source/Combinations.cpp.s
 
+UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.o: UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.o
+.PHONY : UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.o
+
+# target to build an object file
+UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.o
+.PHONY : UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.o
+
+UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.i: UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.i
+.PHONY : UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.i
+
+# target to preprocess a source file
+UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.i
+.PHONY : UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.i
+
+UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.s: UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.s
+.PHONY : UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.s
+
+# target to generate assembly for a file
+UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.s
+.PHONY : UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.s
+
+UDF/models/Smoothing/source/SavitzkyGolay.o: UDF/models/Smoothing/source/SavitzkyGolay.cpp.o
+.PHONY : UDF/models/Smoothing/source/SavitzkyGolay.o
+
+# target to build an object file
+UDF/models/Smoothing/source/SavitzkyGolay.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/Smoothing/source/SavitzkyGolay.cpp.o
+.PHONY : UDF/models/Smoothing/source/SavitzkyGolay.cpp.o
+
+UDF/models/Smoothing/source/SavitzkyGolay.i: UDF/models/Smoothing/source/SavitzkyGolay.cpp.i
+.PHONY : UDF/models/Smoothing/source/SavitzkyGolay.i
+
+# target to preprocess a source file
+UDF/models/Smoothing/source/SavitzkyGolay.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/Smoothing/source/SavitzkyGolay.cpp.i
+.PHONY : UDF/models/Smoothing/source/SavitzkyGolay.cpp.i
+
+UDF/models/Smoothing/source/SavitzkyGolay.s: UDF/models/Smoothing/source/SavitzkyGolay.cpp.s
+.PHONY : UDF/models/Smoothing/source/SavitzkyGolay.s
+
+# target to generate assembly for a file
+UDF/models/Smoothing/source/SavitzkyGolay.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/Smoothing/source/SavitzkyGolay.cpp.s
+.PHONY : UDF/models/Smoothing/source/SavitzkyGolay.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -1983,6 +2031,78 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.o: strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.cpp.o
+.PHONY : strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.o
+
+# target to build an object file
+strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.cpp.o
+.PHONY : strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.cpp.o
+
+strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.i: strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.cpp.i
+.PHONY : strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.i
+
+# target to preprocess a source file
+strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.cpp.i
+.PHONY : strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.cpp.i
+
+strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.s: strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.cpp.s
+.PHONY : strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.s
+
+# target to generate assembly for a file
+strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.cpp.s
+.PHONY : strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.cpp.s
+
+strategy/Portfolio/source/PortfolioSelection.o: strategy/Portfolio/source/PortfolioSelection.cpp.o
+.PHONY : strategy/Portfolio/source/PortfolioSelection.o
+
+# target to build an object file
+strategy/Portfolio/source/PortfolioSelection.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioSelection.cpp.o
+.PHONY : strategy/Portfolio/source/PortfolioSelection.cpp.o
+
+strategy/Portfolio/source/PortfolioSelection.i: strategy/Portfolio/source/PortfolioSelection.cpp.i
+.PHONY : strategy/Portfolio/source/PortfolioSelection.i
+
+# target to preprocess a source file
+strategy/Portfolio/source/PortfolioSelection.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioSelection.cpp.i
+.PHONY : strategy/Portfolio/source/PortfolioSelection.cpp.i
+
+strategy/Portfolio/source/PortfolioSelection.s: strategy/Portfolio/source/PortfolioSelection.cpp.s
+.PHONY : strategy/Portfolio/source/PortfolioSelection.s
+
+# target to generate assembly for a file
+strategy/Portfolio/source/PortfolioSelection.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioSelection.cpp.s
+.PHONY : strategy/Portfolio/source/PortfolioSelection.cpp.s
+
+strategy/Portfolio/source/PortfolioWeightsOH.o: strategy/Portfolio/source/PortfolioWeightsOH.cpp.o
+.PHONY : strategy/Portfolio/source/PortfolioWeightsOH.o
+
+# target to build an object file
+strategy/Portfolio/source/PortfolioWeightsOH.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioWeightsOH.cpp.o
+.PHONY : strategy/Portfolio/source/PortfolioWeightsOH.cpp.o
+
+strategy/Portfolio/source/PortfolioWeightsOH.i: strategy/Portfolio/source/PortfolioWeightsOH.cpp.i
+.PHONY : strategy/Portfolio/source/PortfolioWeightsOH.i
+
+# target to preprocess a source file
+strategy/Portfolio/source/PortfolioWeightsOH.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioWeightsOH.cpp.i
+.PHONY : strategy/Portfolio/source/PortfolioWeightsOH.cpp.i
+
+strategy/Portfolio/source/PortfolioWeightsOH.s: strategy/Portfolio/source/PortfolioWeightsOH.cpp.s
+.PHONY : strategy/Portfolio/source/PortfolioWeightsOH.s
+
+# target to generate assembly for a file
+strategy/Portfolio/source/PortfolioWeightsOH.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioWeightsOH.cpp.s
+.PHONY : strategy/Portfolio/source/PortfolioWeightsOH.cpp.s
 
 # Help Target
 help:
@@ -2211,9 +2331,24 @@ help:
 	@echo "... UDF/models/Combinatorics/source/Combinations.o"
 	@echo "... UDF/models/Combinatorics/source/Combinations.i"
 	@echo "... UDF/models/Combinatorics/source/Combinations.s"
+	@echo "... UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.o"
+	@echo "... UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.i"
+	@echo "... UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.s"
+	@echo "... UDF/models/Smoothing/source/SavitzkyGolay.o"
+	@echo "... UDF/models/Smoothing/source/SavitzkyGolay.i"
+	@echo "... UDF/models/Smoothing/source/SavitzkyGolay.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.o"
+	@echo "... strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.i"
+	@echo "... strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.s"
+	@echo "... strategy/Portfolio/source/PortfolioSelection.o"
+	@echo "... strategy/Portfolio/source/PortfolioSelection.i"
+	@echo "... strategy/Portfolio/source/PortfolioSelection.s"
+	@echo "... strategy/Portfolio/source/PortfolioWeightsOH.o"
+	@echo "... strategy/Portfolio/source/PortfolioWeightsOH.i"
+	@echo "... strategy/Portfolio/source/PortfolioWeightsOH.s"
 .PHONY : help
 
 

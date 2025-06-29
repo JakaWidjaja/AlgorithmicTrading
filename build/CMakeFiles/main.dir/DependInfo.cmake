@@ -74,7 +74,12 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/lun/Desktop/Folder 2/AlgoTradingC++/UDF/config/source/ConfigParams.cpp" "CMakeFiles/main.dir/UDF/config/source/ConfigParams.cpp.o" "gcc" "CMakeFiles/main.dir/UDF/config/source/ConfigParams.cpp.o.d"
   "/home/lun/Desktop/Folder 2/AlgoTradingC++/UDF/config/source/ConfigTWS.cpp" "CMakeFiles/main.dir/UDF/config/source/ConfigTWS.cpp.o" "gcc" "CMakeFiles/main.dir/UDF/config/source/ConfigTWS.cpp.o.d"
   "/home/lun/Desktop/Folder 2/AlgoTradingC++/UDF/models/Combinatorics/source/Combinations.cpp" "CMakeFiles/main.dir/UDF/models/Combinatorics/source/Combinations.cpp.o" "gcc" "CMakeFiles/main.dir/UDF/models/Combinatorics/source/Combinations.cpp.o.d"
+  "/home/lun/Desktop/Folder 2/AlgoTradingC++/UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp" "CMakeFiles/main.dir/UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.o" "gcc" "CMakeFiles/main.dir/UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.o.d"
+  "/home/lun/Desktop/Folder 2/AlgoTradingC++/UDF/models/Smoothing/source/SavitzkyGolay.cpp" "CMakeFiles/main.dir/UDF/models/Smoothing/source/SavitzkyGolay.cpp.o" "gcc" "CMakeFiles/main.dir/UDF/models/Smoothing/source/SavitzkyGolay.cpp.o.d"
   "/home/lun/Desktop/Folder 2/AlgoTradingC++/main.cpp" "CMakeFiles/main.dir/main.cpp.o" "gcc" "CMakeFiles/main.dir/main.cpp.o.d"
+  "/home/lun/Desktop/Folder 2/AlgoTradingC++/strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.cpp" "CMakeFiles/main.dir/strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.cpp.o" "gcc" "CMakeFiles/main.dir/strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.cpp.o.d"
+  "/home/lun/Desktop/Folder 2/AlgoTradingC++/strategy/Portfolio/source/PortfolioSelection.cpp" "CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioSelection.cpp.o" "gcc" "CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioSelection.cpp.o.d"
+  "/home/lun/Desktop/Folder 2/AlgoTradingC++/strategy/Portfolio/source/PortfolioWeightsOH.cpp" "CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioWeightsOH.cpp.o" "gcc" "CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioWeightsOH.cpp.o.d"
   )
 
 # Targets to which this target links.

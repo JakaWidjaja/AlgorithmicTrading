@@ -3,17 +3,20 @@
 #include <cmath>
 #include <numeric>
 #include <stdexcept>
+#include <tuple>
 
 using std::vector;
 using std::accumulate;
 using std::log;
 using std::sqrt;
+using std::make_tuple;
+using std::tuple;
 
 MethodOfMoment::MethodOfMoment() = default;
 
 MethodOfMoment::~MethodOfMoment() = default;
 
-vector<double> MethodOfMoment::calibrate(const vector<double>& timeSeries) const
+tuple<double, double, double> MethodOfMoment::calibrate(const vector<double>& timeSeries) const
 {
 	size_t n = timeSeries.size();
 	if(n < 2)
@@ -50,5 +53,5 @@ vector<double> MethodOfMoment::calibrate(const vector<double>& timeSeries) const
 	// sigma
 	double sigma = sqrt(variance);
 
-	return {m1, theta, sigma};
+	return make_tuple(m1, theta, sigma);
 }

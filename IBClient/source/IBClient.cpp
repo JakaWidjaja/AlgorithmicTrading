@@ -7,12 +7,14 @@
 #include <memory>
 #include <tuple>
 #include <set>
+#include <map>
 
 using std::string;
 using std::vector;
 using std::shared_ptr;
 using std::tuple;
 using std::set;
+using std::map;
 
 IBClient::IBClient() :IBClientCore()
 {
@@ -74,10 +76,21 @@ void IBClient::exportHistoricalDataToCSV(const string& filename, const set<strin
     histData.exportToCSV(filename, columnNames);
 }
 
+void IBClient::exportMatrixToCSV(const string& filename) const
+{
+    histData.exportMatrixToCSV(filename);
+}
+
 vector<tuple<string, string, double>> IBClient::flattenedClosePrice() const
 {
-    histData.flattenedClosePrice();
+    return histData.flattenedClosePrice();
 }
+
+map<string, map<string, double>> IBClient::matrixClosePrice() const
+{
+    return histData.matrixClosePrice();
+} 
+
 
 // Market data
 void IBClient::requestMarketDataType(int type) 
