@@ -247,7 +247,7 @@ CMakeFiles/main.dir/UDF/MakeContract/source/MakeContract.cpp.o: \
  /usr/include/c++/11/cfloat \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
  /home/lun/Desktop/Folder\ 2/AlgoTradingC++/IBJts/source/cppclient/client/IneligibilityReason.h \
- /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/config/include/Config.h \
+ /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/Config/include/Config.h \
  /home/lun/Desktop/Folder\ 2/AlgoTradingC++/external/OpenXLSX/OpenXLSX/OpenXLSX.hpp \
  /home/lun/Desktop/Folder\ 2/AlgoTradingC++/external/OpenXLSX/OpenXLSX/headers/XLCell.hpp \
  /usr/include/c++/11/iostream /usr/include/c++/11/istream \
@@ -353,6 +353,6 @@ CMakeFiles/main.dir/UDF/MakeContract/source/MakeContract.cpp.o: \
  /home/lun/Desktop/Folder\ 2/AlgoTradingC++/external/OpenXLSX/OpenXLSX/headers/XLRow.hpp \
  /home/lun/Desktop/Folder\ 2/AlgoTradingC++/external/OpenXLSX/OpenXLSX/headers/XLWorkbook.hpp \
  /home/lun/Desktop/Folder\ 2/AlgoTradingC++/external/OpenXLSX/OpenXLSX/headers/XLZipArchive.hpp \
- /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/config/include/ConfigContract.h \
- /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/config/include/Config.h \
+ /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/Config/include/ConfigContract.h \
+ /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/Config/include/Config.h \
  /usr/include/c++/11/optional

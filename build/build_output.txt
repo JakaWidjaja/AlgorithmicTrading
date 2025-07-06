@@ -4,26 +4,26 @@ Consolidate compiler generated dependencies of target nlopt
 [ 17%] Built target OpenXLSX
 [ 46%] Built target nlopt
 Consolidate compiler generated dependencies of target Demo2
-Consolidate compiler generated dependencies of target Demo3
-Consolidate compiler generated dependencies of target Demo4
-Consolidate compiler generated dependencies of target Demo7
-Consolidate compiler generated dependencies of target Demo5
-Consolidate compiler generated dependencies of target Demo1
 Consolidate compiler generated dependencies of target Demo6
+Consolidate compiler generated dependencies of target Demo5
+Consolidate compiler generated dependencies of target Demo4
+Consolidate compiler generated dependencies of target Demo3
+Consolidate compiler generated dependencies of target Demo1
+Consolidate compiler generated dependencies of target Demo7
+Consolidate compiler generated dependencies of target Demo10
 Consolidate compiler generated dependencies of target Demo8
 Consolidate compiler generated dependencies of target Demo9
-Consolidate compiler generated dependencies of target Demo10
-[ 47%] Built target Demo4
-[ 48%] Built target Demo1
+[ 47%] Built target Demo5
 [ 49%] Built target Demo2
-[ 50%] Built target Demo5
-[ 51%] Built target Demo3
+[ 49%] Built target Demo3
+[ 50%] Built target Demo1
+[ 52%] Built target Demo4
 [ 52%] Built target Demo6
-[ 53%] Built target Demo7
-[ 54%] Built target Demo8
-[ 56%] Built target Demo10
-[ 56%] Built target Demo9
+[ 53%] Built target Demo9
+[ 54%] Built target Demo7
+[ 55%] Built target Demo10
+[ 56%] Built target Demo8
 Consolidate compiler generated dependencies of target main
-[ 58%] Building CXX object CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioWeightsOH.cpp.o
+[ 58%] Building CXX object CMakeFiles/main.dir/main.cpp.o
 [ 58%] Linking CXX executable main
 [100%] Built target main

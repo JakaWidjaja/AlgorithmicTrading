@@ -431,9 +431,9 @@ CMakeFiles/main.dir/strategy/MeanRevertingPortfolio/source/MeanRevertingPortfoli
  /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h \
  /home/lun/Desktop/Folder\ 2/AlgoTradingC++/strategy/Portfolio/include/PortfolioWeightsOH.h \
- /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/models/OrnsteinUhlenbeck/include/MethodOfMoment.h \
- /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/models/OrnsteinUhlenbeck/include/OrnsteinUhlenbeck.h \
- /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/models/Combinatorics/include/Combinations.h \
- /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/models/Combinatorics/include/Combinatorics.h \
+ /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/Models/OrnsteinUhlenbeck/include/MethodOfMoment.h \
+ /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/Models/OrnsteinUhlenbeck/include/OrnsteinUhlenbeck.h \
+ /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/Models/Combinatorics/include/Combinations.h \
+ /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/Models/Combinatorics/include/Combinatorics.h \
  /usr/include/c++/11/numeric /usr/include/c++/11/bits/stl_numeric.h \
  /usr/include/c++/11/bit /usr/include/c++/11/pstl/glue_numeric_defs.h

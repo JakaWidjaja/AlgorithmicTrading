@@ -8,6 +8,7 @@
 #include "Contract.h"
 #include "MeanRevertingPortfolio.h"
 #include "PortfolioSelection.h"
+#include "Utilities.h"
 
 #include <Eigen/Dense>
 #include <iostream>
@@ -28,17 +29,10 @@ using std::map;
 using std::cout;
 using std::endl;
 
-std::string TodayDate() 
-{
-    auto now = std::chrono::system_clock::now();
-    std::time_t t = std::chrono::system_clock::to_time_t(now);
-    std::ostringstream oss;
-    oss << std::put_time(std::localtime(&t), "%Y%m%d");
-    return oss.str();
-}
-
 int main() 
 {   
+    Utilities util;
+
     // Sleep time
     int sleepTime = 2;
 
@@ -74,7 +68,7 @@ int main()
                                  "TRADES");
 
     auto histData = client.matrixClosePrice();
-    client.exportMatrixToCSV("/home/lun/Desktop/Folder 2/AlgoTradingC++/strategy/data/USEquity" + TodayDate() + ".csv");
+    client.exportMatrixToCSV("/home/lun/Desktop/Folder 2/AlgoTradingC++/strategy/data/USEquity" + util.TodayDate() + ".csv");
 
     
     // Model calibration and create signal 
@@ -96,14 +90,45 @@ int main()
     vector<vector<string>> portCombinations = mrPort.stockSelection(priceMatrix, stockList, modelConfig -> getStockCombinations(), "low");
     vector<portfolioRow> portWeights = mrPort.portfolioPositions(portCombinations, priceMatrix, stockList, modelConfig -> getLongShortIndicator());
     
-    // Print results
-    for (const auto& row : portWeights)
+    // Make some adjustments. 
+    
+    set<string> uniqueTickers = util.uniqueTickers(portWeights); // Get unique tickers.
+    map<string, map<string, double>> filteredHistData = util.filteredHistData(uniqueTickers, histData); // Filter hist data to just the unique ticks.
+    vector<Contract> uniqueContracts = util.uniqueContracts(contract, uniqueTickers); // Get the unique contracts. 
+
+    // Create request market data
+    int tickerId = 1000;
+    map<string, int> symbolToTickerId;
+    for(const auto& c : uniqueContracts)
     {
-        cout << "Combination: ";
-        for (const auto& s : row.combination) cout << s << " ";
-        cout << "| Weights: ";
-        for (const auto& w : row.weights) cout << w << " ";
-        cout << endl;
+        string symbol = c.symbol;
+        symbolToTickerId[symbol] = tickerId;
+        client.requestMarketData(tickerId, symbol, c.secType, c.exchange, c.currency);
+        ++tickerId;
+    }
+    std::this_thread::sleep_for(std::chrono::seconds(sleepTime));
+
+
+    // while loop starts here
+
+    // append to hist data
+    string today = util.TodayDate();
+    map<string, double>& todayRow = filteredHistData[today];
+    for(const auto& [symbol, id] : symbolToTickerId)
+    {
+        double price = client.getMarketValue(id, DELAYED_LAST);
+        std::this_thread::sleep_for(std::chrono::seconds(sleepTime));
+        
+        if(std::isfinite(price))
+        {
+            todayRow[symbol] = price;
+        }
+    }
+
+    std::cout << "Updated prices for today (" << today << "):\n";
+    for (const auto& [symbol, price] : todayRow)
+    {
+        std::cout << "  " << symbol << " : " << price << "\n";
     }
 
     // Disconnect to TWS

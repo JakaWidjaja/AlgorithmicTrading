@@ -423,7 +423,7 @@ CMakeFiles/main.dir/main.cpp.o: \
  /usr/include/c++/11/tr1/poly_hermite.tcc \
  /usr/include/c++/11/tr1/poly_laguerre.tcc \
  /usr/include/c++/11/tr1/riemann_zeta.tcc \
- /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/config/include/Config.h \
+ /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/Config/include/Config.h \
  /home/lun/Desktop/Folder\ 2/AlgoTradingC++/external/OpenXLSX/OpenXLSX/OpenXLSX.hpp \
  /home/lun/Desktop/Folder\ 2/AlgoTradingC++/external/OpenXLSX/OpenXLSX/headers/XLCell.hpp \
  /home/lun/Desktop/Folder\ 2/AlgoTradingC++/build/external/OpenXLSX/OpenXLSX/OpenXLSX-Exports.hpp \
@@ -490,11 +490,11 @@ CMakeFiles/main.dir/main.cpp.o: \
  /home/lun/Desktop/Folder\ 2/AlgoTradingC++/external/OpenXLSX/OpenXLSX/headers/XLRow.hpp \
  /home/lun/Desktop/Folder\ 2/AlgoTradingC++/external/OpenXLSX/OpenXLSX/headers/XLWorkbook.hpp \
  /home/lun/Desktop/Folder\ 2/AlgoTradingC++/external/OpenXLSX/OpenXLSX/headers/XLZipArchive.hpp \
- /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/config/include/ConfigTWS.h \
- /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/config/include/Config.h \
- /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/config/include/ConfigModel.h \
- /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/config/include/ConfigParams.h \
- /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/config/include/ConfigContract.h \
+ /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/Config/include/ConfigTWS.h \
+ /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/Config/include/Config.h \
+ /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/Config/include/ConfigModel.h \
+ /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/Config/include/ConfigParams.h \
+ /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/Config/include/ConfigContract.h \
  /usr/include/c++/11/optional \
  /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/MakeContract/include/MakeContract.h \
  /home/lun/Desktop/Folder\ 2/AlgoTradingC++/strategy/MeanRevertingPortfolio/include/MeanRevertingPortfolio.h \
@@ -695,6 +695,7 @@ CMakeFiles/main.dir/main.cpp.o: \
  /home/lun/Desktop/Folder\ 2/AlgoTradingC++/external/eigen/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
  /home/lun/Desktop/Folder\ 2/AlgoTradingC++/external/eigen/Eigen/src/Eigenvalues/./RealQZ.h \
  /home/lun/Desktop/Folder\ 2/AlgoTradingC++/external/eigen/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
+ /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/Utilities/include/Utilities.h \
  /usr/include/c++/11/iomanip /usr/include/c++/11/locale \
  /usr/include/c++/11/bits/locale_facets_nonio.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \

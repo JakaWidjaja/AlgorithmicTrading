@@ -1792,6 +1792,126 @@ IBJts/source/cppclient/client/protobufUnix/SoftDollarTier.pb.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/IBJts/source/cppclient/client/protobufUnix/SoftDollarTier.pb.cc.s
 .PHONY : IBJts/source/cppclient/client/protobufUnix/SoftDollarTier.pb.cc.s
 
+UDF/Config/source/Config.o: UDF/Config/source/Config.cpp.o
+.PHONY : UDF/Config/source/Config.o
+
+# target to build an object file
+UDF/Config/source/Config.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/Config/source/Config.cpp.o
+.PHONY : UDF/Config/source/Config.cpp.o
+
+UDF/Config/source/Config.i: UDF/Config/source/Config.cpp.i
+.PHONY : UDF/Config/source/Config.i
+
+# target to preprocess a source file
+UDF/Config/source/Config.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/Config/source/Config.cpp.i
+.PHONY : UDF/Config/source/Config.cpp.i
+
+UDF/Config/source/Config.s: UDF/Config/source/Config.cpp.s
+.PHONY : UDF/Config/source/Config.s
+
+# target to generate assembly for a file
+UDF/Config/source/Config.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/Config/source/Config.cpp.s
+.PHONY : UDF/Config/source/Config.cpp.s
+
+UDF/Config/source/ConfigContract.o: UDF/Config/source/ConfigContract.cpp.o
+.PHONY : UDF/Config/source/ConfigContract.o
+
+# target to build an object file
+UDF/Config/source/ConfigContract.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/Config/source/ConfigContract.cpp.o
+.PHONY : UDF/Config/source/ConfigContract.cpp.o
+
+UDF/Config/source/ConfigContract.i: UDF/Config/source/ConfigContract.cpp.i
+.PHONY : UDF/Config/source/ConfigContract.i
+
+# target to preprocess a source file
+UDF/Config/source/ConfigContract.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/Config/source/ConfigContract.cpp.i
+.PHONY : UDF/Config/source/ConfigContract.cpp.i
+
+UDF/Config/source/ConfigContract.s: UDF/Config/source/ConfigContract.cpp.s
+.PHONY : UDF/Config/source/ConfigContract.s
+
+# target to generate assembly for a file
+UDF/Config/source/ConfigContract.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/Config/source/ConfigContract.cpp.s
+.PHONY : UDF/Config/source/ConfigContract.cpp.s
+
+UDF/Config/source/ConfigModel.o: UDF/Config/source/ConfigModel.cpp.o
+.PHONY : UDF/Config/source/ConfigModel.o
+
+# target to build an object file
+UDF/Config/source/ConfigModel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/Config/source/ConfigModel.cpp.o
+.PHONY : UDF/Config/source/ConfigModel.cpp.o
+
+UDF/Config/source/ConfigModel.i: UDF/Config/source/ConfigModel.cpp.i
+.PHONY : UDF/Config/source/ConfigModel.i
+
+# target to preprocess a source file
+UDF/Config/source/ConfigModel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/Config/source/ConfigModel.cpp.i
+.PHONY : UDF/Config/source/ConfigModel.cpp.i
+
+UDF/Config/source/ConfigModel.s: UDF/Config/source/ConfigModel.cpp.s
+.PHONY : UDF/Config/source/ConfigModel.s
+
+# target to generate assembly for a file
+UDF/Config/source/ConfigModel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/Config/source/ConfigModel.cpp.s
+.PHONY : UDF/Config/source/ConfigModel.cpp.s
+
+UDF/Config/source/ConfigParams.o: UDF/Config/source/ConfigParams.cpp.o
+.PHONY : UDF/Config/source/ConfigParams.o
+
+# target to build an object file
+UDF/Config/source/ConfigParams.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/Config/source/ConfigParams.cpp.o
+.PHONY : UDF/Config/source/ConfigParams.cpp.o
+
+UDF/Config/source/ConfigParams.i: UDF/Config/source/ConfigParams.cpp.i
+.PHONY : UDF/Config/source/ConfigParams.i
+
+# target to preprocess a source file
+UDF/Config/source/ConfigParams.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/Config/source/ConfigParams.cpp.i
+.PHONY : UDF/Config/source/ConfigParams.cpp.i
+
+UDF/Config/source/ConfigParams.s: UDF/Config/source/ConfigParams.cpp.s
+.PHONY : UDF/Config/source/ConfigParams.s
+
+# target to generate assembly for a file
+UDF/Config/source/ConfigParams.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/Config/source/ConfigParams.cpp.s
+.PHONY : UDF/Config/source/ConfigParams.cpp.s
+
+UDF/Config/source/ConfigTWS.o: UDF/Config/source/ConfigTWS.cpp.o
+.PHONY : UDF/Config/source/ConfigTWS.o
+
+# target to build an object file
+UDF/Config/source/ConfigTWS.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/Config/source/ConfigTWS.cpp.o
+.PHONY : UDF/Config/source/ConfigTWS.cpp.o
+
+UDF/Config/source/ConfigTWS.i: UDF/Config/source/ConfigTWS.cpp.i
+.PHONY : UDF/Config/source/ConfigTWS.i
+
+# target to preprocess a source file
+UDF/Config/source/ConfigTWS.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/Config/source/ConfigTWS.cpp.i
+.PHONY : UDF/Config/source/ConfigTWS.cpp.i
+
+UDF/Config/source/ConfigTWS.s: UDF/Config/source/ConfigTWS.cpp.s
+.PHONY : UDF/Config/source/ConfigTWS.s
+
+# target to generate assembly for a file
+UDF/Config/source/ConfigTWS.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/Config/source/ConfigTWS.cpp.s
+.PHONY : UDF/Config/source/ConfigTWS.cpp.s
+
 UDF/MakeContract/source/MakeContract.o: UDF/MakeContract/source/MakeContract.cpp.o
 .PHONY : UDF/MakeContract/source/MakeContract.o
 
@@ -1816,197 +1936,101 @@ UDF/MakeContract/source/MakeContract.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/MakeContract/source/MakeContract.cpp.s
 .PHONY : UDF/MakeContract/source/MakeContract.cpp.s
 
-UDF/config/source/Config.o: UDF/config/source/Config.cpp.o
-.PHONY : UDF/config/source/Config.o
+UDF/Models/Combinatorics/source/Combinations.o: UDF/Models/Combinatorics/source/Combinations.cpp.o
+.PHONY : UDF/Models/Combinatorics/source/Combinations.o
 
 # target to build an object file
-UDF/config/source/Config.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/config/source/Config.cpp.o
-.PHONY : UDF/config/source/Config.cpp.o
+UDF/Models/Combinatorics/source/Combinations.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/Models/Combinatorics/source/Combinations.cpp.o
+.PHONY : UDF/Models/Combinatorics/source/Combinations.cpp.o
 
-UDF/config/source/Config.i: UDF/config/source/Config.cpp.i
-.PHONY : UDF/config/source/Config.i
+UDF/Models/Combinatorics/source/Combinations.i: UDF/Models/Combinatorics/source/Combinations.cpp.i
+.PHONY : UDF/Models/Combinatorics/source/Combinations.i
 
 # target to preprocess a source file
-UDF/config/source/Config.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/config/source/Config.cpp.i
-.PHONY : UDF/config/source/Config.cpp.i
+UDF/Models/Combinatorics/source/Combinations.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/Models/Combinatorics/source/Combinations.cpp.i
+.PHONY : UDF/Models/Combinatorics/source/Combinations.cpp.i
 
-UDF/config/source/Config.s: UDF/config/source/Config.cpp.s
-.PHONY : UDF/config/source/Config.s
+UDF/Models/Combinatorics/source/Combinations.s: UDF/Models/Combinatorics/source/Combinations.cpp.s
+.PHONY : UDF/Models/Combinatorics/source/Combinations.s
 
 # target to generate assembly for a file
-UDF/config/source/Config.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/config/source/Config.cpp.s
-.PHONY : UDF/config/source/Config.cpp.s
+UDF/Models/Combinatorics/source/Combinations.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/Models/Combinatorics/source/Combinations.cpp.s
+.PHONY : UDF/Models/Combinatorics/source/Combinations.cpp.s
 
-UDF/config/source/ConfigContract.o: UDF/config/source/ConfigContract.cpp.o
-.PHONY : UDF/config/source/ConfigContract.o
+UDF/Models/OrnsteinUhlenbeck/source/MethodOfMoment.o: UDF/Models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.o
+.PHONY : UDF/Models/OrnsteinUhlenbeck/source/MethodOfMoment.o
 
 # target to build an object file
-UDF/config/source/ConfigContract.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/config/source/ConfigContract.cpp.o
-.PHONY : UDF/config/source/ConfigContract.cpp.o
+UDF/Models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/Models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.o
+.PHONY : UDF/Models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.o
 
-UDF/config/source/ConfigContract.i: UDF/config/source/ConfigContract.cpp.i
-.PHONY : UDF/config/source/ConfigContract.i
+UDF/Models/OrnsteinUhlenbeck/source/MethodOfMoment.i: UDF/Models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.i
+.PHONY : UDF/Models/OrnsteinUhlenbeck/source/MethodOfMoment.i
 
 # target to preprocess a source file
-UDF/config/source/ConfigContract.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/config/source/ConfigContract.cpp.i
-.PHONY : UDF/config/source/ConfigContract.cpp.i
+UDF/Models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/Models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.i
+.PHONY : UDF/Models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.i
 
-UDF/config/source/ConfigContract.s: UDF/config/source/ConfigContract.cpp.s
-.PHONY : UDF/config/source/ConfigContract.s
+UDF/Models/OrnsteinUhlenbeck/source/MethodOfMoment.s: UDF/Models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.s
+.PHONY : UDF/Models/OrnsteinUhlenbeck/source/MethodOfMoment.s
 
 # target to generate assembly for a file
-UDF/config/source/ConfigContract.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/config/source/ConfigContract.cpp.s
-.PHONY : UDF/config/source/ConfigContract.cpp.s
+UDF/Models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/Models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.s
+.PHONY : UDF/Models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.s
 
-UDF/config/source/ConfigModel.o: UDF/config/source/ConfigModel.cpp.o
-.PHONY : UDF/config/source/ConfigModel.o
+UDF/Models/Smoothing/source/SavitzkyGolay.o: UDF/Models/Smoothing/source/SavitzkyGolay.cpp.o
+.PHONY : UDF/Models/Smoothing/source/SavitzkyGolay.o
 
 # target to build an object file
-UDF/config/source/ConfigModel.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/config/source/ConfigModel.cpp.o
-.PHONY : UDF/config/source/ConfigModel.cpp.o
+UDF/Models/Smoothing/source/SavitzkyGolay.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/Models/Smoothing/source/SavitzkyGolay.cpp.o
+.PHONY : UDF/Models/Smoothing/source/SavitzkyGolay.cpp.o
 
-UDF/config/source/ConfigModel.i: UDF/config/source/ConfigModel.cpp.i
-.PHONY : UDF/config/source/ConfigModel.i
+UDF/Models/Smoothing/source/SavitzkyGolay.i: UDF/Models/Smoothing/source/SavitzkyGolay.cpp.i
+.PHONY : UDF/Models/Smoothing/source/SavitzkyGolay.i
 
 # target to preprocess a source file
-UDF/config/source/ConfigModel.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/config/source/ConfigModel.cpp.i
-.PHONY : UDF/config/source/ConfigModel.cpp.i
+UDF/Models/Smoothing/source/SavitzkyGolay.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/Models/Smoothing/source/SavitzkyGolay.cpp.i
+.PHONY : UDF/Models/Smoothing/source/SavitzkyGolay.cpp.i
 
-UDF/config/source/ConfigModel.s: UDF/config/source/ConfigModel.cpp.s
-.PHONY : UDF/config/source/ConfigModel.s
+UDF/Models/Smoothing/source/SavitzkyGolay.s: UDF/Models/Smoothing/source/SavitzkyGolay.cpp.s
+.PHONY : UDF/Models/Smoothing/source/SavitzkyGolay.s
 
 # target to generate assembly for a file
-UDF/config/source/ConfigModel.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/config/source/ConfigModel.cpp.s
-.PHONY : UDF/config/source/ConfigModel.cpp.s
+UDF/Models/Smoothing/source/SavitzkyGolay.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/Models/Smoothing/source/SavitzkyGolay.cpp.s
+.PHONY : UDF/Models/Smoothing/source/SavitzkyGolay.cpp.s
 
-UDF/config/source/ConfigParams.o: UDF/config/source/ConfigParams.cpp.o
-.PHONY : UDF/config/source/ConfigParams.o
+UDF/Utilities/source/Utilities.o: UDF/Utilities/source/Utilities.cpp.o
+.PHONY : UDF/Utilities/source/Utilities.o
 
 # target to build an object file
-UDF/config/source/ConfigParams.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/config/source/ConfigParams.cpp.o
-.PHONY : UDF/config/source/ConfigParams.cpp.o
+UDF/Utilities/source/Utilities.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/Utilities/source/Utilities.cpp.o
+.PHONY : UDF/Utilities/source/Utilities.cpp.o
 
-UDF/config/source/ConfigParams.i: UDF/config/source/ConfigParams.cpp.i
-.PHONY : UDF/config/source/ConfigParams.i
-
-# target to preprocess a source file
-UDF/config/source/ConfigParams.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/config/source/ConfigParams.cpp.i
-.PHONY : UDF/config/source/ConfigParams.cpp.i
-
-UDF/config/source/ConfigParams.s: UDF/config/source/ConfigParams.cpp.s
-.PHONY : UDF/config/source/ConfigParams.s
-
-# target to generate assembly for a file
-UDF/config/source/ConfigParams.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/config/source/ConfigParams.cpp.s
-.PHONY : UDF/config/source/ConfigParams.cpp.s
-
-UDF/config/source/ConfigTWS.o: UDF/config/source/ConfigTWS.cpp.o
-.PHONY : UDF/config/source/ConfigTWS.o
-
-# target to build an object file
-UDF/config/source/ConfigTWS.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/config/source/ConfigTWS.cpp.o
-.PHONY : UDF/config/source/ConfigTWS.cpp.o
-
-UDF/config/source/ConfigTWS.i: UDF/config/source/ConfigTWS.cpp.i
-.PHONY : UDF/config/source/ConfigTWS.i
+UDF/Utilities/source/Utilities.i: UDF/Utilities/source/Utilities.cpp.i
+.PHONY : UDF/Utilities/source/Utilities.i
 
 # target to preprocess a source file
-UDF/config/source/ConfigTWS.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/config/source/ConfigTWS.cpp.i
-.PHONY : UDF/config/source/ConfigTWS.cpp.i
+UDF/Utilities/source/Utilities.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/Utilities/source/Utilities.cpp.i
+.PHONY : UDF/Utilities/source/Utilities.cpp.i
 
-UDF/config/source/ConfigTWS.s: UDF/config/source/ConfigTWS.cpp.s
-.PHONY : UDF/config/source/ConfigTWS.s
-
-# target to generate assembly for a file
-UDF/config/source/ConfigTWS.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/config/source/ConfigTWS.cpp.s
-.PHONY : UDF/config/source/ConfigTWS.cpp.s
-
-UDF/models/Combinatorics/source/Combinations.o: UDF/models/Combinatorics/source/Combinations.cpp.o
-.PHONY : UDF/models/Combinatorics/source/Combinations.o
-
-# target to build an object file
-UDF/models/Combinatorics/source/Combinations.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/Combinatorics/source/Combinations.cpp.o
-.PHONY : UDF/models/Combinatorics/source/Combinations.cpp.o
-
-UDF/models/Combinatorics/source/Combinations.i: UDF/models/Combinatorics/source/Combinations.cpp.i
-.PHONY : UDF/models/Combinatorics/source/Combinations.i
-
-# target to preprocess a source file
-UDF/models/Combinatorics/source/Combinations.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/Combinatorics/source/Combinations.cpp.i
-.PHONY : UDF/models/Combinatorics/source/Combinations.cpp.i
-
-UDF/models/Combinatorics/source/Combinations.s: UDF/models/Combinatorics/source/Combinations.cpp.s
-.PHONY : UDF/models/Combinatorics/source/Combinations.s
+UDF/Utilities/source/Utilities.s: UDF/Utilities/source/Utilities.cpp.s
+.PHONY : UDF/Utilities/source/Utilities.s
 
 # target to generate assembly for a file
-UDF/models/Combinatorics/source/Combinations.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/Combinatorics/source/Combinations.cpp.s
-.PHONY : UDF/models/Combinatorics/source/Combinations.cpp.s
-
-UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.o: UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.o
-.PHONY : UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.o
-
-# target to build an object file
-UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.o
-.PHONY : UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.o
-
-UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.i: UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.i
-.PHONY : UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.i
-
-# target to preprocess a source file
-UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.i
-.PHONY : UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.i
-
-UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.s: UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.s
-.PHONY : UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.s
-
-# target to generate assembly for a file
-UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.s
-.PHONY : UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.s
-
-UDF/models/Smoothing/source/SavitzkyGolay.o: UDF/models/Smoothing/source/SavitzkyGolay.cpp.o
-.PHONY : UDF/models/Smoothing/source/SavitzkyGolay.o
-
-# target to build an object file
-UDF/models/Smoothing/source/SavitzkyGolay.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/Smoothing/source/SavitzkyGolay.cpp.o
-.PHONY : UDF/models/Smoothing/source/SavitzkyGolay.cpp.o
-
-UDF/models/Smoothing/source/SavitzkyGolay.i: UDF/models/Smoothing/source/SavitzkyGolay.cpp.i
-.PHONY : UDF/models/Smoothing/source/SavitzkyGolay.i
-
-# target to preprocess a source file
-UDF/models/Smoothing/source/SavitzkyGolay.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/Smoothing/source/SavitzkyGolay.cpp.i
-.PHONY : UDF/models/Smoothing/source/SavitzkyGolay.cpp.i
-
-UDF/models/Smoothing/source/SavitzkyGolay.s: UDF/models/Smoothing/source/SavitzkyGolay.cpp.s
-.PHONY : UDF/models/Smoothing/source/SavitzkyGolay.s
-
-# target to generate assembly for a file
-UDF/models/Smoothing/source/SavitzkyGolay.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/models/Smoothing/source/SavitzkyGolay.cpp.s
-.PHONY : UDF/models/Smoothing/source/SavitzkyGolay.cpp.s
+UDF/Utilities/source/Utilities.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/Utilities/source/Utilities.cpp.s
+.PHONY : UDF/Utilities/source/Utilities.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -2310,33 +2334,36 @@ help:
 	@echo "... IBJts/source/cppclient/client/protobufUnix/SoftDollarTier.pb.o"
 	@echo "... IBJts/source/cppclient/client/protobufUnix/SoftDollarTier.pb.i"
 	@echo "... IBJts/source/cppclient/client/protobufUnix/SoftDollarTier.pb.s"
+	@echo "... UDF/Config/source/Config.o"
+	@echo "... UDF/Config/source/Config.i"
+	@echo "... UDF/Config/source/Config.s"
+	@echo "... UDF/Config/source/ConfigContract.o"
+	@echo "... UDF/Config/source/ConfigContract.i"
+	@echo "... UDF/Config/source/ConfigContract.s"
+	@echo "... UDF/Config/source/ConfigModel.o"
+	@echo "... UDF/Config/source/ConfigModel.i"
+	@echo "... UDF/Config/source/ConfigModel.s"
+	@echo "... UDF/Config/source/ConfigParams.o"
+	@echo "... UDF/Config/source/ConfigParams.i"
+	@echo "... UDF/Config/source/ConfigParams.s"
+	@echo "... UDF/Config/source/ConfigTWS.o"
+	@echo "... UDF/Config/source/ConfigTWS.i"
+	@echo "... UDF/Config/source/ConfigTWS.s"
 	@echo "... UDF/MakeContract/source/MakeContract.o"
 	@echo "... UDF/MakeContract/source/MakeContract.i"
 	@echo "... UDF/MakeContract/source/MakeContract.s"
-	@echo "... UDF/config/source/Config.o"
-	@echo "... UDF/config/source/Config.i"
-	@echo "... UDF/config/source/Config.s"
-	@echo "... UDF/config/source/ConfigContract.o"
-	@echo "... UDF/config/source/ConfigContract.i"
-	@echo "... UDF/config/source/ConfigContract.s"
-	@echo "... UDF/config/source/ConfigModel.o"
-	@echo "... UDF/config/source/ConfigModel.i"
-	@echo "... UDF/config/source/ConfigModel.s"
-	@echo "... UDF/config/source/ConfigParams.o"
-	@echo "... UDF/config/source/ConfigParams.i"
-	@echo "... UDF/config/source/ConfigParams.s"
-	@echo "... UDF/config/source/ConfigTWS.o"
-	@echo "... UDF/config/source/ConfigTWS.i"
-	@echo "... UDF/config/source/ConfigTWS.s"
-	@echo "... UDF/models/Combinatorics/source/Combinations.o"
-	@echo "... UDF/models/Combinatorics/source/Combinations.i"
-	@echo "... UDF/models/Combinatorics/source/Combinations.s"
-	@echo "... UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.o"
-	@echo "... UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.i"
-	@echo "... UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.s"
-	@echo "... UDF/models/Smoothing/source/SavitzkyGolay.o"
-	@echo "... UDF/models/Smoothing/source/SavitzkyGolay.i"
-	@echo "... UDF/models/Smoothing/source/SavitzkyGolay.s"
+	@echo "... UDF/Models/Combinatorics/source/Combinations.o"
+	@echo "... UDF/Models/Combinatorics/source/Combinations.i"
+	@echo "... UDF/Models/Combinatorics/source/Combinations.s"
+	@echo "... UDF/Models/OrnsteinUhlenbeck/source/MethodOfMoment.o"
+	@echo "... UDF/Models/OrnsteinUhlenbeck/source/MethodOfMoment.i"
+	@echo "... UDF/Models/OrnsteinUhlenbeck/source/MethodOfMoment.s"
+	@echo "... UDF/Models/Smoothing/source/SavitzkyGolay.o"
+	@echo "... UDF/Models/Smoothing/source/SavitzkyGolay.i"
+	@echo "... UDF/Models/Smoothing/source/SavitzkyGolay.s"
+	@echo "... UDF/Utilities/source/Utilities.o"
+	@echo "... UDF/Utilities/source/Utilities.i"
+	@echo "... UDF/Utilities/source/Utilities.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

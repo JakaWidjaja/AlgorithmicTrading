@@ -14,11 +14,12 @@ include_directories(
     ${PROJECT_SOURCE_DIR}/IBJts/source/cppclient/client/OrderCondition
     ${PROJECT_SOURCE_DIR}/IBJts/source/cppclient/common
     ${PROJECT_SOURCE_DIR}/IBClient/include
-    ${PROJECT_SOURCE_DIR}/UDF/config/include
+    ${PROJECT_SOURCE_DIR}/UDF/Config/include
     ${PROJECT_SOURCE_DIR}/UDF/MakeContract/include
-    ${PROJECT_SOURCE_DIR}/UDF/models/Combinatorics/include
-    ${PROJECT_SOURCE_DIR}/UDF/models/OrnsteinUhlenbeck/include
-    ${PROJECT_SOURCE_DIR}/UDF/models/Smoothing/include
+    ${PROJECT_SOURCE_DIR}/UDF/Models/Combinatorics/include
+    ${PROJECT_SOURCE_DIR}/UDF/Models/OrnsteinUhlenbeck/include
+    ${PROJECT_SOURCE_DIR}/UDF/Models/Smoothing/include
+    ${PROJECT_SOURCE_DIR}/UDF/Utilities/include
     ${PROJECT_SOURCE_DIR}/strategy/Portfolio/include
     ${PROJECT_SOURCE_DIR}/strategy/MeanRevertingPortfolio/include
 )
@@ -43,15 +44,16 @@ list(APPEND SOURCES
     ${PROJECT_SOURCE_DIR}/IBJts/samples/Cpp/TestCppClient/Utils.cpp
     ${PROJECT_SOURCE_DIR}/IBJts/samples/Cpp/TestCppClient/ScannerSubscriptionSamples.cpp
     ${PROJECT_SOURCE_DIR}/IBJts/samples/Cpp/TestCppClient/AccountSummaryTags.cpp
-    ${PROJECT_SOURCE_DIR}/UDF/config/source/Config.cpp
-    ${PROJECT_SOURCE_DIR}/UDF/config/source/ConfigTWS.cpp
-    ${PROJECT_SOURCE_DIR}/UDF/config/source/ConfigModel.cpp
-    ${PROJECT_SOURCE_DIR}/UDF/config/source/ConfigParams.cpp
-    ${PROJECT_SOURCE_DIR}/UDF/config/source/ConfigContract.cpp
+    ${PROJECT_SOURCE_DIR}/UDF/Config/source/Config.cpp
+    ${PROJECT_SOURCE_DIR}/UDF/Config/source/ConfigTWS.cpp
+    ${PROJECT_SOURCE_DIR}/UDF/Config/source/ConfigModel.cpp
+    ${PROJECT_SOURCE_DIR}/UDF/Config/source/ConfigParams.cpp
+    ${PROJECT_SOURCE_DIR}/UDF/Config/source/ConfigContract.cpp
     ${PROJECT_SOURCE_DIR}/UDF/MakeContract/source/MakeContract.cpp
-    ${PROJECT_SOURCE_DIR}/UDF/models/Combinatorics/source/Combinations.cpp
-    ${PROJECT_SOURCE_DIR}/UDF/models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp
-    ${PROJECT_SOURCE_DIR}/UDF/models/Smoothing/source/SavitzkyGolay.cpp
+    ${PROJECT_SOURCE_DIR}/UDF/Models/Combinatorics/source/Combinations.cpp
+    ${PROJECT_SOURCE_DIR}/UDF/Models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp
+    ${PROJECT_SOURCE_DIR}/UDF/Models/Smoothing/source/SavitzkyGolay.cpp
+    ${PROJECT_SOURCE_DIR}/UDF/Utilities/source/Utilities.cpp
     ${PROJECT_SOURCE_DIR}/strategy/Portfolio/source/PortfolioSelection.cpp
     ${PROJECT_SOURCE_DIR}/strategy/Portfolio/source/PortfolioWeightsOH.cpp
     ${PROJECT_SOURCE_DIR}/strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.cpp
