@@ -11,18 +11,11 @@
 #include <ctime>
 #include <sstream>
 #include <iomanip>
+#include <Eigen/Dense>
 
 class Utilities
 {
 public:
-	// Data structure
-	/*
-	struct portfolioRow
-	{
-		std::vector<std::string> combinations;
-		std::vector<double> weights;
-	};
-	*/
 	Utilities();
 
 
@@ -34,6 +27,17 @@ public:
 
 	std::string TodayDate();
 
+	void exportFilteredHistDataToCSV(const std::string& filepath,
+									 const std::map<std::string, std::map<std::string, double>>& data) const;
+
+	void exportMatrixToCSV(const std::string& filePath,
+						   const Eigen::MatrixXd& matrix, 
+						   const std::vector<std::string>& rowLabels, 
+						   const std::vector<std::string>& colLabels) const;
+
+	void exportListToCSV(const std::string& filePath,
+						 const std::vector<std::string>& data,
+						 const std::string& header) const;
 
 };
 

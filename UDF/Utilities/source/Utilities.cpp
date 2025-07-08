@@ -1,5 +1,6 @@
 #include "Utilities.h"
 #include <iostream>
+#include <fstream>
 
 using std::set;
 using std::string;
@@ -9,6 +10,7 @@ using std::time_t;
 using std::ostringstream;
 using std::put_time;
 using std::localtime;
+using std::ofstream;
 
 Utilities::Utilities() {}
 
@@ -69,3 +71,86 @@ string Utilities::TodayDate()
 	oss << put_time(localtime(&t), "%Y%m%d");
 	return oss.str();
 }
+
+void Utilities::exportFilteredHistDataToCSV(const string& filePath, const map<string, map<string, double>>& data) const
+{
+	if(data.empty()) return;
+
+	ofstream file(filePath);
+	if(!file.is_open()) return;
+
+	// Header
+	const auto& firstRow = data.begin() -> second;
+	file << "Date";
+
+	for(const auto& [symbol, _] : firstRow)
+	{
+		file << "," << symbol;
+	}
+	file <<"\n";
+
+	// Rows
+	for(const auto& [date, row] : data)
+	{
+		file << date;
+		for(const auto& [symbol, _] : firstRow)
+		{
+			auto it = row.find(symbol);
+			if(it != row.end())
+			{
+				file << "," << it -> second;
+			}
+			else
+			{
+				file << ",";
+			}
+		}
+		file << "\n";
+	}
+	file.close();
+}
+
+void Utilities:: exportMatrixToCSV(const string& filePath,
+								   const Eigen::MatrixXd& matrix,
+								   const vector<string>& rowLabels,
+								   const vector<string>& colLabels) const
+{
+	ofstream file(filePath);
+	if(!file.is_open()) return;
+
+	// Header
+	file << "date";
+	for(const auto& label : colLabels)
+	{
+		file << "," << label;
+	}
+	file << "\n";
+
+	// Row
+	for(int i = 0; i < matrix.rows(); ++i)
+	{
+		file << rowLabels[i];
+		for(int j = 0; j < matrix.cols(); ++j)
+		{
+			file << "," << matrix(i, j);
+		}
+		file << "\n";
+	}
+	file.close();
+}
+
+void Utilities::exportListToCSV(const string& filePath,
+								const vector<string>& data,
+								const string& header) const
+{
+	ofstream file(filePath);
+	if(!file.is_open()) return;
+
+	file << header << "\n";
+	for(const auto& item : data)
+	{
+		file << item << "\n";
+	}
+	file.close();
+}
+

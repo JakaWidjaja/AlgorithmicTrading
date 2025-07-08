@@ -703,4 +703,17 @@ CMakeFiles/main.dir/main.cpp.o: \
  /usr/include/libintl.h /usr/include/c++/11/bits/codecvt.h \
  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
  /usr/include/c++/11/bits/locale_conv.h \
- /usr/include/c++/11/bits/quoted_string.h
+ /usr/include/c++/11/bits/quoted_string.h \
+ /home/lun/Desktop/Folder\ 2/AlgoTradingC++/strategy/Signals/include/GenerateSignals.h \
+ /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/Models/TechnicalIndicator/include/HalfLife.h \
+ /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/Models/TechnicalIndicator/include/TechnicalIndicators.h \
+ /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/Models/TechnicalIndicator/include/HurstExponent.h \
+ /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/Models/TechnicalIndicator/include/VarianceRatio.h \
+ /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/Models/TechnicalIndicator/include/SingleSMA.h \
+ /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/Models/TechnicalIndicator/include/DoubleSMA.h \
+ /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/Models/OrnsteinUhlenbeck/include/MethodOfMoment.h \
+ /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/Models/OrnsteinUhlenbeck/include/OrnsteinUhlenbeck.h \
+ /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/Models/Smoothing/include/SavitzkyGolay.h \
+ /home/lun/Desktop/Folder\ 2/AlgoTradingC++/UDF/Models/Smoothing/include/Smoothing.h \
+ /home/lun/Desktop/Folder\ 2/AlgoTradingC++/strategy/Signals/include/MeanRevertSignal.h \
+ /home/lun/Desktop/Folder\ 2/AlgoTradingC++/strategy/Signals/include/TrendSignal.h

@@ -2008,6 +2008,126 @@ UDF/Models/Smoothing/source/SavitzkyGolay.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/Models/Smoothing/source/SavitzkyGolay.cpp.s
 .PHONY : UDF/Models/Smoothing/source/SavitzkyGolay.cpp.s
 
+UDF/Models/TechnicalIndicator/source/DoubleSMA.o: UDF/Models/TechnicalIndicator/source/DoubleSMA.cpp.o
+.PHONY : UDF/Models/TechnicalIndicator/source/DoubleSMA.o
+
+# target to build an object file
+UDF/Models/TechnicalIndicator/source/DoubleSMA.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/Models/TechnicalIndicator/source/DoubleSMA.cpp.o
+.PHONY : UDF/Models/TechnicalIndicator/source/DoubleSMA.cpp.o
+
+UDF/Models/TechnicalIndicator/source/DoubleSMA.i: UDF/Models/TechnicalIndicator/source/DoubleSMA.cpp.i
+.PHONY : UDF/Models/TechnicalIndicator/source/DoubleSMA.i
+
+# target to preprocess a source file
+UDF/Models/TechnicalIndicator/source/DoubleSMA.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/Models/TechnicalIndicator/source/DoubleSMA.cpp.i
+.PHONY : UDF/Models/TechnicalIndicator/source/DoubleSMA.cpp.i
+
+UDF/Models/TechnicalIndicator/source/DoubleSMA.s: UDF/Models/TechnicalIndicator/source/DoubleSMA.cpp.s
+.PHONY : UDF/Models/TechnicalIndicator/source/DoubleSMA.s
+
+# target to generate assembly for a file
+UDF/Models/TechnicalIndicator/source/DoubleSMA.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/Models/TechnicalIndicator/source/DoubleSMA.cpp.s
+.PHONY : UDF/Models/TechnicalIndicator/source/DoubleSMA.cpp.s
+
+UDF/Models/TechnicalIndicator/source/HalfLife.o: UDF/Models/TechnicalIndicator/source/HalfLife.cpp.o
+.PHONY : UDF/Models/TechnicalIndicator/source/HalfLife.o
+
+# target to build an object file
+UDF/Models/TechnicalIndicator/source/HalfLife.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/Models/TechnicalIndicator/source/HalfLife.cpp.o
+.PHONY : UDF/Models/TechnicalIndicator/source/HalfLife.cpp.o
+
+UDF/Models/TechnicalIndicator/source/HalfLife.i: UDF/Models/TechnicalIndicator/source/HalfLife.cpp.i
+.PHONY : UDF/Models/TechnicalIndicator/source/HalfLife.i
+
+# target to preprocess a source file
+UDF/Models/TechnicalIndicator/source/HalfLife.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/Models/TechnicalIndicator/source/HalfLife.cpp.i
+.PHONY : UDF/Models/TechnicalIndicator/source/HalfLife.cpp.i
+
+UDF/Models/TechnicalIndicator/source/HalfLife.s: UDF/Models/TechnicalIndicator/source/HalfLife.cpp.s
+.PHONY : UDF/Models/TechnicalIndicator/source/HalfLife.s
+
+# target to generate assembly for a file
+UDF/Models/TechnicalIndicator/source/HalfLife.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/Models/TechnicalIndicator/source/HalfLife.cpp.s
+.PHONY : UDF/Models/TechnicalIndicator/source/HalfLife.cpp.s
+
+UDF/Models/TechnicalIndicator/source/HurstExponent.o: UDF/Models/TechnicalIndicator/source/HurstExponent.cpp.o
+.PHONY : UDF/Models/TechnicalIndicator/source/HurstExponent.o
+
+# target to build an object file
+UDF/Models/TechnicalIndicator/source/HurstExponent.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/Models/TechnicalIndicator/source/HurstExponent.cpp.o
+.PHONY : UDF/Models/TechnicalIndicator/source/HurstExponent.cpp.o
+
+UDF/Models/TechnicalIndicator/source/HurstExponent.i: UDF/Models/TechnicalIndicator/source/HurstExponent.cpp.i
+.PHONY : UDF/Models/TechnicalIndicator/source/HurstExponent.i
+
+# target to preprocess a source file
+UDF/Models/TechnicalIndicator/source/HurstExponent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/Models/TechnicalIndicator/source/HurstExponent.cpp.i
+.PHONY : UDF/Models/TechnicalIndicator/source/HurstExponent.cpp.i
+
+UDF/Models/TechnicalIndicator/source/HurstExponent.s: UDF/Models/TechnicalIndicator/source/HurstExponent.cpp.s
+.PHONY : UDF/Models/TechnicalIndicator/source/HurstExponent.s
+
+# target to generate assembly for a file
+UDF/Models/TechnicalIndicator/source/HurstExponent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/Models/TechnicalIndicator/source/HurstExponent.cpp.s
+.PHONY : UDF/Models/TechnicalIndicator/source/HurstExponent.cpp.s
+
+UDF/Models/TechnicalIndicator/source/SingleSMA.o: UDF/Models/TechnicalIndicator/source/SingleSMA.cpp.o
+.PHONY : UDF/Models/TechnicalIndicator/source/SingleSMA.o
+
+# target to build an object file
+UDF/Models/TechnicalIndicator/source/SingleSMA.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/Models/TechnicalIndicator/source/SingleSMA.cpp.o
+.PHONY : UDF/Models/TechnicalIndicator/source/SingleSMA.cpp.o
+
+UDF/Models/TechnicalIndicator/source/SingleSMA.i: UDF/Models/TechnicalIndicator/source/SingleSMA.cpp.i
+.PHONY : UDF/Models/TechnicalIndicator/source/SingleSMA.i
+
+# target to preprocess a source file
+UDF/Models/TechnicalIndicator/source/SingleSMA.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/Models/TechnicalIndicator/source/SingleSMA.cpp.i
+.PHONY : UDF/Models/TechnicalIndicator/source/SingleSMA.cpp.i
+
+UDF/Models/TechnicalIndicator/source/SingleSMA.s: UDF/Models/TechnicalIndicator/source/SingleSMA.cpp.s
+.PHONY : UDF/Models/TechnicalIndicator/source/SingleSMA.s
+
+# target to generate assembly for a file
+UDF/Models/TechnicalIndicator/source/SingleSMA.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/Models/TechnicalIndicator/source/SingleSMA.cpp.s
+.PHONY : UDF/Models/TechnicalIndicator/source/SingleSMA.cpp.s
+
+UDF/Models/TechnicalIndicator/source/VarianceRatio.o: UDF/Models/TechnicalIndicator/source/VarianceRatio.cpp.o
+.PHONY : UDF/Models/TechnicalIndicator/source/VarianceRatio.o
+
+# target to build an object file
+UDF/Models/TechnicalIndicator/source/VarianceRatio.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/Models/TechnicalIndicator/source/VarianceRatio.cpp.o
+.PHONY : UDF/Models/TechnicalIndicator/source/VarianceRatio.cpp.o
+
+UDF/Models/TechnicalIndicator/source/VarianceRatio.i: UDF/Models/TechnicalIndicator/source/VarianceRatio.cpp.i
+.PHONY : UDF/Models/TechnicalIndicator/source/VarianceRatio.i
+
+# target to preprocess a source file
+UDF/Models/TechnicalIndicator/source/VarianceRatio.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/Models/TechnicalIndicator/source/VarianceRatio.cpp.i
+.PHONY : UDF/Models/TechnicalIndicator/source/VarianceRatio.cpp.i
+
+UDF/Models/TechnicalIndicator/source/VarianceRatio.s: UDF/Models/TechnicalIndicator/source/VarianceRatio.cpp.s
+.PHONY : UDF/Models/TechnicalIndicator/source/VarianceRatio.s
+
+# target to generate assembly for a file
+UDF/Models/TechnicalIndicator/source/VarianceRatio.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/UDF/Models/TechnicalIndicator/source/VarianceRatio.cpp.s
+.PHONY : UDF/Models/TechnicalIndicator/source/VarianceRatio.cpp.s
+
 UDF/Utilities/source/Utilities.o: UDF/Utilities/source/Utilities.cpp.o
 .PHONY : UDF/Utilities/source/Utilities.o
 
@@ -2127,6 +2247,78 @@ strategy/Portfolio/source/PortfolioWeightsOH.s: strategy/Portfolio/source/Portfo
 strategy/Portfolio/source/PortfolioWeightsOH.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioWeightsOH.cpp.s
 .PHONY : strategy/Portfolio/source/PortfolioWeightsOH.cpp.s
+
+strategy/Signals/source/GenerateSignals.o: strategy/Signals/source/GenerateSignals.cpp.o
+.PHONY : strategy/Signals/source/GenerateSignals.o
+
+# target to build an object file
+strategy/Signals/source/GenerateSignals.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/strategy/Signals/source/GenerateSignals.cpp.o
+.PHONY : strategy/Signals/source/GenerateSignals.cpp.o
+
+strategy/Signals/source/GenerateSignals.i: strategy/Signals/source/GenerateSignals.cpp.i
+.PHONY : strategy/Signals/source/GenerateSignals.i
+
+# target to preprocess a source file
+strategy/Signals/source/GenerateSignals.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/strategy/Signals/source/GenerateSignals.cpp.i
+.PHONY : strategy/Signals/source/GenerateSignals.cpp.i
+
+strategy/Signals/source/GenerateSignals.s: strategy/Signals/source/GenerateSignals.cpp.s
+.PHONY : strategy/Signals/source/GenerateSignals.s
+
+# target to generate assembly for a file
+strategy/Signals/source/GenerateSignals.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/strategy/Signals/source/GenerateSignals.cpp.s
+.PHONY : strategy/Signals/source/GenerateSignals.cpp.s
+
+strategy/Signals/source/MeanRevertSignal.o: strategy/Signals/source/MeanRevertSignal.cpp.o
+.PHONY : strategy/Signals/source/MeanRevertSignal.o
+
+# target to build an object file
+strategy/Signals/source/MeanRevertSignal.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/strategy/Signals/source/MeanRevertSignal.cpp.o
+.PHONY : strategy/Signals/source/MeanRevertSignal.cpp.o
+
+strategy/Signals/source/MeanRevertSignal.i: strategy/Signals/source/MeanRevertSignal.cpp.i
+.PHONY : strategy/Signals/source/MeanRevertSignal.i
+
+# target to preprocess a source file
+strategy/Signals/source/MeanRevertSignal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/strategy/Signals/source/MeanRevertSignal.cpp.i
+.PHONY : strategy/Signals/source/MeanRevertSignal.cpp.i
+
+strategy/Signals/source/MeanRevertSignal.s: strategy/Signals/source/MeanRevertSignal.cpp.s
+.PHONY : strategy/Signals/source/MeanRevertSignal.s
+
+# target to generate assembly for a file
+strategy/Signals/source/MeanRevertSignal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/strategy/Signals/source/MeanRevertSignal.cpp.s
+.PHONY : strategy/Signals/source/MeanRevertSignal.cpp.s
+
+strategy/Signals/source/TrendSignal.o: strategy/Signals/source/TrendSignal.cpp.o
+.PHONY : strategy/Signals/source/TrendSignal.o
+
+# target to build an object file
+strategy/Signals/source/TrendSignal.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/strategy/Signals/source/TrendSignal.cpp.o
+.PHONY : strategy/Signals/source/TrendSignal.cpp.o
+
+strategy/Signals/source/TrendSignal.i: strategy/Signals/source/TrendSignal.cpp.i
+.PHONY : strategy/Signals/source/TrendSignal.i
+
+# target to preprocess a source file
+strategy/Signals/source/TrendSignal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/strategy/Signals/source/TrendSignal.cpp.i
+.PHONY : strategy/Signals/source/TrendSignal.cpp.i
+
+strategy/Signals/source/TrendSignal.s: strategy/Signals/source/TrendSignal.cpp.s
+.PHONY : strategy/Signals/source/TrendSignal.s
+
+# target to generate assembly for a file
+strategy/Signals/source/TrendSignal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/strategy/Signals/source/TrendSignal.cpp.s
+.PHONY : strategy/Signals/source/TrendSignal.cpp.s
 
 # Help Target
 help:
@@ -2361,6 +2553,21 @@ help:
 	@echo "... UDF/Models/Smoothing/source/SavitzkyGolay.o"
 	@echo "... UDF/Models/Smoothing/source/SavitzkyGolay.i"
 	@echo "... UDF/Models/Smoothing/source/SavitzkyGolay.s"
+	@echo "... UDF/Models/TechnicalIndicator/source/DoubleSMA.o"
+	@echo "... UDF/Models/TechnicalIndicator/source/DoubleSMA.i"
+	@echo "... UDF/Models/TechnicalIndicator/source/DoubleSMA.s"
+	@echo "... UDF/Models/TechnicalIndicator/source/HalfLife.o"
+	@echo "... UDF/Models/TechnicalIndicator/source/HalfLife.i"
+	@echo "... UDF/Models/TechnicalIndicator/source/HalfLife.s"
+	@echo "... UDF/Models/TechnicalIndicator/source/HurstExponent.o"
+	@echo "... UDF/Models/TechnicalIndicator/source/HurstExponent.i"
+	@echo "... UDF/Models/TechnicalIndicator/source/HurstExponent.s"
+	@echo "... UDF/Models/TechnicalIndicator/source/SingleSMA.o"
+	@echo "... UDF/Models/TechnicalIndicator/source/SingleSMA.i"
+	@echo "... UDF/Models/TechnicalIndicator/source/SingleSMA.s"
+	@echo "... UDF/Models/TechnicalIndicator/source/VarianceRatio.o"
+	@echo "... UDF/Models/TechnicalIndicator/source/VarianceRatio.i"
+	@echo "... UDF/Models/TechnicalIndicator/source/VarianceRatio.s"
 	@echo "... UDF/Utilities/source/Utilities.o"
 	@echo "... UDF/Utilities/source/Utilities.i"
 	@echo "... UDF/Utilities/source/Utilities.s"
@@ -2376,6 +2583,15 @@ help:
 	@echo "... strategy/Portfolio/source/PortfolioWeightsOH.o"
 	@echo "... strategy/Portfolio/source/PortfolioWeightsOH.i"
 	@echo "... strategy/Portfolio/source/PortfolioWeightsOH.s"
+	@echo "... strategy/Signals/source/GenerateSignals.o"
+	@echo "... strategy/Signals/source/GenerateSignals.i"
+	@echo "... strategy/Signals/source/GenerateSignals.s"
+	@echo "... strategy/Signals/source/MeanRevertSignal.o"
+	@echo "... strategy/Signals/source/MeanRevertSignal.i"
+	@echo "... strategy/Signals/source/MeanRevertSignal.s"
+	@echo "... strategy/Signals/source/TrendSignal.o"
+	@echo "... strategy/Signals/source/TrendSignal.i"
+	@echo "... strategy/Signals/source/TrendSignal.s"
 .PHONY : help
 
 

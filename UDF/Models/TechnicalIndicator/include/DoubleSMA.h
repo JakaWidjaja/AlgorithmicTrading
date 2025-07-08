@@ -1,4 +1,4 @@
-#ifndef DOUBLES_SMA_H
+#ifndef DOUBLE_SMA_H
 #define DOUBLE_SMA_H
 
 #include "TechnicalIndicators.h"

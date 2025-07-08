@@ -9,6 +9,12 @@
 #include "MeanRevertingPortfolio.h"
 #include "PortfolioSelection.h"
 #include "Utilities.h"
+#include "GenerateSignals.h"
+#include "HurstExponent.h"
+#include "VarianceRatio.h"
+#include "HalfLife.h"
+#include "SingleSMA.h"
+#include "SavitzkyGolay.h"
 
 #include <Eigen/Dense>
 #include <iostream>
@@ -22,6 +28,7 @@
 
 using std::string;
 using std::shared_ptr;
+using std::make_shared;
 using std::vector;
 using std::set;
 using std::map;
@@ -125,11 +132,29 @@ int main()
         }
     }
 
-    std::cout << "Updated prices for today (" << today << "):\n";
-    for (const auto& [symbol, price] : todayRow)
-    {
-        std::cout << "  " << symbol << " : " << price << "\n";
-    }
+    Eigen::MatrixXd combineData;
+    vector<string> finalDateList;
+    vector<string> finalStockList;
+    PortfolioSelection::reshapePriceMatrixData(filteredHistData, combineData, finalDateList, finalStockList);
+    //util.exportFilteredHistDataToCSV("/home/lun/Desktop/Folder 2/AlgoTradingC++/strategy/data/filteredHistData.csv", filteredHistData);
+    //util.exportMatrixToCSV("/home/lun/Desktop/Folder 2/AlgoTradingC++/strategy/data/combineData.csv", combineData, finalDateList, finalStockList);
+    //util.exportListToCSV("/home/lun/Desktop/Folder 2/AlgoTradingC++/strategy/data/finalDatelist.csv", finalDateList, "Date");
+    //util.exportListToCSV("/home/lun/Desktop/Folder 2/AlgoTradingC++/strategy/data/finalStockList.csv", finalStockList, "Stock");
+
+    // Technical Indicators
+    auto hurst = make_shared<HurstExponent>();
+    auto vr    = make_shared<VarianceRatio>();
+    auto hl    = make_shared<HalfLife>();
+    auto sma   = make_shared<SingleSMA>(modelConfig -> getDoubleSMAShortWindow());
+    auto sg    = make_shared<SavitzkyGolay>(31, 10);
+
+    // Generate signals
+    GenerateSignals generator(modelConfig, 
+                              hurst, vr, hl, sma, sg,
+                              portWeights, 
+                              modelConfig -> getInvestmentAmount());
+
+    auto [meanRevertSignal, trendSignal] = generator.signals(combineData);
 
     // Disconnect to TWS
     client.disconnect();

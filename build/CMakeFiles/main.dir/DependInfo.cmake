@@ -76,11 +76,19 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/lun/Desktop/Folder 2/AlgoTradingC++/UDF/Models/Combinatorics/source/Combinations.cpp" "CMakeFiles/main.dir/UDF/Models/Combinatorics/source/Combinations.cpp.o" "gcc" "CMakeFiles/main.dir/UDF/Models/Combinatorics/source/Combinations.cpp.o.d"
   "/home/lun/Desktop/Folder 2/AlgoTradingC++/UDF/Models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp" "CMakeFiles/main.dir/UDF/Models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.o" "gcc" "CMakeFiles/main.dir/UDF/Models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp.o.d"
   "/home/lun/Desktop/Folder 2/AlgoTradingC++/UDF/Models/Smoothing/source/SavitzkyGolay.cpp" "CMakeFiles/main.dir/UDF/Models/Smoothing/source/SavitzkyGolay.cpp.o" "gcc" "CMakeFiles/main.dir/UDF/Models/Smoothing/source/SavitzkyGolay.cpp.o.d"
+  "/home/lun/Desktop/Folder 2/AlgoTradingC++/UDF/Models/TechnicalIndicator/source/DoubleSMA.cpp" "CMakeFiles/main.dir/UDF/Models/TechnicalIndicator/source/DoubleSMA.cpp.o" "gcc" "CMakeFiles/main.dir/UDF/Models/TechnicalIndicator/source/DoubleSMA.cpp.o.d"
+  "/home/lun/Desktop/Folder 2/AlgoTradingC++/UDF/Models/TechnicalIndicator/source/HalfLife.cpp" "CMakeFiles/main.dir/UDF/Models/TechnicalIndicator/source/HalfLife.cpp.o" "gcc" "CMakeFiles/main.dir/UDF/Models/TechnicalIndicator/source/HalfLife.cpp.o.d"
+  "/home/lun/Desktop/Folder 2/AlgoTradingC++/UDF/Models/TechnicalIndicator/source/HurstExponent.cpp" "CMakeFiles/main.dir/UDF/Models/TechnicalIndicator/source/HurstExponent.cpp.o" "gcc" "CMakeFiles/main.dir/UDF/Models/TechnicalIndicator/source/HurstExponent.cpp.o.d"
+  "/home/lun/Desktop/Folder 2/AlgoTradingC++/UDF/Models/TechnicalIndicator/source/SingleSMA.cpp" "CMakeFiles/main.dir/UDF/Models/TechnicalIndicator/source/SingleSMA.cpp.o" "gcc" "CMakeFiles/main.dir/UDF/Models/TechnicalIndicator/source/SingleSMA.cpp.o.d"
+  "/home/lun/Desktop/Folder 2/AlgoTradingC++/UDF/Models/TechnicalIndicator/source/VarianceRatio.cpp" "CMakeFiles/main.dir/UDF/Models/TechnicalIndicator/source/VarianceRatio.cpp.o" "gcc" "CMakeFiles/main.dir/UDF/Models/TechnicalIndicator/source/VarianceRatio.cpp.o.d"
   "/home/lun/Desktop/Folder 2/AlgoTradingC++/UDF/Utilities/source/Utilities.cpp" "CMakeFiles/main.dir/UDF/Utilities/source/Utilities.cpp.o" "gcc" "CMakeFiles/main.dir/UDF/Utilities/source/Utilities.cpp.o.d"
   "/home/lun/Desktop/Folder 2/AlgoTradingC++/main.cpp" "CMakeFiles/main.dir/main.cpp.o" "gcc" "CMakeFiles/main.dir/main.cpp.o.d"
   "/home/lun/Desktop/Folder 2/AlgoTradingC++/strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.cpp" "CMakeFiles/main.dir/strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.cpp.o" "gcc" "CMakeFiles/main.dir/strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.cpp.o.d"
   "/home/lun/Desktop/Folder 2/AlgoTradingC++/strategy/Portfolio/source/PortfolioSelection.cpp" "CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioSelection.cpp.o" "gcc" "CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioSelection.cpp.o.d"
   "/home/lun/Desktop/Folder 2/AlgoTradingC++/strategy/Portfolio/source/PortfolioWeightsOH.cpp" "CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioWeightsOH.cpp.o" "gcc" "CMakeFiles/main.dir/strategy/Portfolio/source/PortfolioWeightsOH.cpp.o.d"
+  "/home/lun/Desktop/Folder 2/AlgoTradingC++/strategy/Signals/source/GenerateSignals.cpp" "CMakeFiles/main.dir/strategy/Signals/source/GenerateSignals.cpp.o" "gcc" "CMakeFiles/main.dir/strategy/Signals/source/GenerateSignals.cpp.o.d"
+  "/home/lun/Desktop/Folder 2/AlgoTradingC++/strategy/Signals/source/MeanRevertSignal.cpp" "CMakeFiles/main.dir/strategy/Signals/source/MeanRevertSignal.cpp.o" "gcc" "CMakeFiles/main.dir/strategy/Signals/source/MeanRevertSignal.cpp.o.d"
+  "/home/lun/Desktop/Folder 2/AlgoTradingC++/strategy/Signals/source/TrendSignal.cpp" "CMakeFiles/main.dir/strategy/Signals/source/TrendSignal.cpp.o" "gcc" "CMakeFiles/main.dir/strategy/Signals/source/TrendSignal.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -6,13 +6,13 @@
 #include <map>
 #include <memory>
 #include <Eigen/Dense>
-#include "Config.h"
-#include "SingelSMA.h"
+#include "SingleSMA.h"
+#include "ConfigModel.h"
 
 class MeanRevertSignal
 {
 public:
-	explicit MeanRevertSignal(const std::shared_ptr<Config>& modelConfig);
+	explicit MeanRevertSignal(const std::shared_ptr<ConfigModel>& modelConfig);
 
 	Eigen::MatrixXd signal(double hurst, 
 						   double halflife, 

@@ -19,9 +19,11 @@ include_directories(
     ${PROJECT_SOURCE_DIR}/UDF/Models/Combinatorics/include
     ${PROJECT_SOURCE_DIR}/UDF/Models/OrnsteinUhlenbeck/include
     ${PROJECT_SOURCE_DIR}/UDF/Models/Smoothing/include
+    ${PROJECT_SOURCE_DIR}/UDF/Models/TechnicalIndicator/include
     ${PROJECT_SOURCE_DIR}/UDF/Utilities/include
     ${PROJECT_SOURCE_DIR}/strategy/Portfolio/include
     ${PROJECT_SOURCE_DIR}/strategy/MeanRevertingPortfolio/include
+    ${PROJECT_SOURCE_DIR}/strategy/Signals/include
 )
 
 # Add all required source files
@@ -53,10 +55,18 @@ list(APPEND SOURCES
     ${PROJECT_SOURCE_DIR}/UDF/Models/Combinatorics/source/Combinations.cpp
     ${PROJECT_SOURCE_DIR}/UDF/Models/OrnsteinUhlenbeck/source/MethodOfMoment.cpp
     ${PROJECT_SOURCE_DIR}/UDF/Models/Smoothing/source/SavitzkyGolay.cpp
+    ${PROJECT_SOURCE_DIR}/UDF/Models/TechnicalIndicator/source/HurstExponent.cpp
+    ${PROJECT_SOURCE_DIR}/UDF/Models/TechnicalIndicator/source/VarianceRatio.cpp
+    ${PROJECT_SOURCE_DIR}/UDF/Models/TechnicalIndicator/source/HalfLife.cpp
+    ${PROJECT_SOURCE_DIR}/UDF/Models/TechnicalIndicator/source/SingleSMA.cpp
+    ${PROJECT_SOURCE_DIR}/UDF/Models/TechnicalIndicator/source/DoubleSMA.cpp
     ${PROJECT_SOURCE_DIR}/UDF/Utilities/source/Utilities.cpp
     ${PROJECT_SOURCE_DIR}/strategy/Portfolio/source/PortfolioSelection.cpp
     ${PROJECT_SOURCE_DIR}/strategy/Portfolio/source/PortfolioWeightsOH.cpp
     ${PROJECT_SOURCE_DIR}/strategy/MeanRevertingPortfolio/source/MeanRevertingPortfolio.cpp
+    ${PROJECT_SOURCE_DIR}/strategy/Signals/source/GenerateSignals.cpp
+    ${PROJECT_SOURCE_DIR}/strategy/Signals/source/MeanRevertSignal.cpp
+    ${PROJECT_SOURCE_DIR}/strategy/Signals/source/TrendSignal.cpp
 )
 
 # Add external libraries
